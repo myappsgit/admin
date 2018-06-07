@@ -1,0 +1,219 @@
+{
+    "BUTTONS": {
+        "submit": {
+            "id": "button_search"
+        },
+        "AddTeam": {
+            "id": "add_team"
+        },
+        "Save": {
+            "id": "button_save"
+        },
+        "Update": {
+            "id": "button_update"
+        },
+        "BookNow": {
+            "id": "button_bookNow"
+        },
+        "Confirm": {
+            "id": "button_confirm"
+        },
+        "CancelBooking": {
+            "id": "button_cancelBooking"
+        },
+        "History": {
+            "id": "button_history"
+        },
+        "Submit": {
+            "id": "button_submit"
+        },
+        "OK": {
+            "id": "button_ok"
+        },
+        "Replan": {
+            "id": "button_replan"
+        },
+        "SaveChanges": {
+            "id": "button_saveChanges"
+        },
+        "Proceed": {
+            "path": "//div[@class = 'buttonContainer ' and descendant::*[text()='Proceed']]"
+        },
+        "AddMeetingDetails": {
+            "path": "//button[@class='buttonAddMeetingRoom' and text()='Add Meeting Details']"
+        },
+        "Filter": {
+            "id": "button_filter"
+        }
+    },
+    "TEXT_FIELDS": {
+        "UpdateName": {
+            "id": "name_editDetails_input"
+        },
+        "DOB": {
+            "path": "//input[@class='selection ng-untouched ng-pristine ng-valid']"
+        },
+        "OldPassword": {
+            "id": "oldPassword_changePassword_input"
+        },
+        "NewPassword": {
+            "id": "newPassword_changePassword_input"
+        },
+        "ConfirmPassword": {
+            "id": "newCpassword_changePassword_input"
+        },
+        "TeamName": {
+            "id": "input_teamName"
+        },
+        "Name*": {
+            "id": "input_name1"
+        },
+        "Mobile": {
+            "id": "input_mobileNo1"
+        },
+        "E-mail": {
+            "id": "id_email1"
+        },
+        "OK": {
+            "id": "button_ok"
+        },
+        "Name1": {
+            "id": "input_name"
+        },
+        "Mobile1": {
+            "id": "input_mobile"
+        },
+        "E-mail1": {
+            "id": "input_email"
+        },
+        "Startdate": {
+            "id": "startTime"
+        },
+        "EndDate": {
+            "id": "endTime"
+        },
+        "Seats": {
+            "id": "seats"
+        },
+        "Comments": {
+            "id": "textArea_comments"
+        },
+        "OldPassword": {
+            "id": "input_oldPassword"
+        },
+        "NewPassword": {
+            "id": "input_newPassword"
+        },
+        "ConfirmPassword": {
+            "id": "input_confirmPassword"
+        },
+        "Name": {
+            "id": "name"
+        },
+        "MeetingTitle": {
+            "id": "input_meetingAgenda"
+        },
+        "MeetingDescription": {
+            "id": "textArea_description"
+        },
+        "Minpriceperday": {
+            "id": "startingPrice"
+        },
+        "Maxpriceperday": {
+            "id": "endingPrice"
+        },
+        "Seats1": {
+            "id": "seats"
+        },
+        "StartDate": {
+            "id": "datetimepicker"
+        },
+        "Enddate": {
+            "id": "datetimepicker2"
+        }
+    },
+    "DROPDOWNS": {
+        "SelectCity": {
+            "path": "//huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='city']"
+        },
+        "SelectLocality": {
+            "path": "//huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='locality']"
+        },
+        "SelectFacilityType": {
+            "path": "//huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType']"
+        },
+        "facilityType": {
+            "id": "select_facilityType"
+        },
+        "team": {
+            "id": "select_team"
+        },
+        "SelectAmenities": {
+            "path": "//div[@class='c-btn' and descendant::*[text()='Select Amenities']]"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "UserProfile": {
+            "path": "//i[@class='fa fa-user-circle-o']"
+        },
+        "EditProfile": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Edit Profile']]"
+        },
+        "Favorite": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Favorite']]"
+        },
+        "Attendees": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Attendees']]"
+        },
+        "ChangePassword": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Change Password']]"
+        },
+        "Logout": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Logout']]"
+        },
+        "EditAttendee": {
+            "path": "//i[@class='fa fa-pencil editIcon' and parent::div[@class='individualTeamListIconContainer' and preceding-sibling::div[@class='individualTeamListHeadingContainer' and child::*[text()='Interview Team']]]]"
+        },
+        "Add New Attendee": {
+            "path": "//div[@class = 'addNewAttendeesContainer' and descendant::*[text()='Add New Attendee']]"
+        },
+        "EditTeam": {
+            "path": "//div[@class = 'attendeesListHeadingContainer' and descendant::*[text()='Edit Team']]"
+        },
+        "MyBooking": {
+            "path": "//a[text()='My Booking']"
+        },
+        "MyBookings": {
+            "path": "//a[text()='My Bookings']"
+        },
+        "Startdate": {
+            "id": "startTime"
+        },
+        "ChangePassword": {
+            "path": "//div[@class = 'userMenuSubFieldsContainer' and descendant::*[text()='Change Password']]"
+        },
+        "IsFavourite": {
+            "path": "//i[@class='fa fa-heart' and parent::div[@class='displayOverThumbnail']]"
+        },
+        "IsFavouriteRemove": {
+            "path": "//i[@class='fa fa-heart isfavourite' and parent::div[@class='displayOverThumbnail']]"
+        },
+        "SearchPage": {
+            "path": "//div[@class='landingPageSearchBox']"
+        }
+    },
+    "PAGES": {
+        "FacilityItems": {
+            "path": "//div[@class='facilityItemContainer']"
+        },
+        "Upcoming": {
+            "id": "button_upcoming"
+        }
+    },
+    "RADIOS": {
+        "PaymentType": {
+            "name": "method",
+            "select_by": "value"
+        }
+    }
+}

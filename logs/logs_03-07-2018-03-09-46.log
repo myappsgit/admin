@@ -1,0 +1,714 @@
+2018-03-07 15:09:46 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-07 15:09:46 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options starting.
+2018-03-07 15:09:46 INFO  rootLogger:230 - Scenario Tag Name: @Sanity2
+2018-03-07 15:09:46 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-07 15:09:46 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-07 15:09:46 INFO  rootLogger:230 - userName: advisor@huddil.com
+2018-03-07 15:09:46 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-03-07 15:09:46 INFO  rootLogger:230 - Initializing JSON files
+2018-03-07 15:09:46 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-07 15:10:05 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-07 15:10:06 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-07 15:10:06 INFO  rootLogger:230 - get driver object
+2018-03-07 15:10:06 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: SetUpFile; Method: logInApplication
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:20 INFO  rootLogger:230 - Return: username
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:20 INFO  rootLogger:230 - Return: password
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:20 INFO  rootLogger:230 - Return: null
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:20 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:20 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:21 INFO  rootLogger:230 - UserName: advisor@huddil.com entered
+2018-03-07 15:10:21 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:21 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:21 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:23 INFO  rootLogger:230 - Password: password entered
+2018-03-07 15:10:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:23 INFO  rootLogger:230 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-07 15:10:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:23 INFO  rootLogger:230 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-07 15:10:23 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:23 INFO  rootLogger:230 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-07 15:10:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:23 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:25 INFO  rootLogger:230 - Login button clicked
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-03-07 15:10:25 INFO  rootLogger:230 - parentWindow: 4294967297
+2018-03-07 15:10:25 INFO  rootLogger:230 - windowHandle: 4294967297
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-07 15:10:25 INFO  rootLogger:230 - get driver object
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-07 15:10:25 INFO  rootLogger:230 - get driver object
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: Page; Method: findPage
+2018-03-07 15:10:25 INFO  rootLogger:230 - Current tab name: Advisor
+2018-03-07 15:10:25 INFO  rootLogger:230 - PaneName: Advisor
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:25 INFO  rootLogger:230 - Exception: null
+2018-03-07 15:10:25 INFO  rootLogger:230 - Pane xpath: null
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-07 15:10:25 INFO  rootLogger:230 - get driver object
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:25 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:25 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Start
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:25 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Dashboard')]
+2018-03-07 15:10:25 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:25 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Dashboard')];xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:28 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Dashboard')];xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Dashboard')]
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:28 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:28 INFO  rootLogger:230 - This is my text: dashboard
+2018-03-07 15:10:28 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+total
+new request
+approved
+denied
+blocked
+latest facility - new request
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:28 INFO  rootLogger:230 - Text: 'dashboard' exist. Returning true.
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:28 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Facility')]
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:28 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Facility')];xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:28 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Facility')];xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:28 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Facility')]
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:28 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:28 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:29 INFO  rootLogger:230 - This is my text: facility
+2018-03-07 15:10:29 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:29 INFO  rootLogger:230 - Text: 'facility' exist. Returning true.
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:29 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Booking')]
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:29 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Booking')];xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:29 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Booking')];xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Booking')]
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:29 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:29 INFO  rootLogger:230 - This is my text: booking
+2018-03-07 15:10:29 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:29 INFO  rootLogger:230 - Text: 'booking' exist. Returning true.
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:29 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Partners')]
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:29 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Partners')];xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:29 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Partners')];xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:29 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Partners')]
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:29 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:29 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:30 INFO  rootLogger:230 - This is my text: partners
+2018-03-07 15:10:30 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:30 INFO  rootLogger:230 - Text: 'partners' exist. Returning true.
+2018-03-07 15:10:30 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:30 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'New Request')]
+2018-03-07 15:10:30 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:30 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'New Request')];xpath
+2018-03-07 15:10:30 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:30 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'New Request')];xpath
+2018-03-07 15:10:30 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:30 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'New Request')]
+2018-03-07 15:10:30 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:30 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:30 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:31 INFO  rootLogger:230 - This is my text: new request
+2018-03-07 15:10:31 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:31 INFO  rootLogger:230 - Text: 'new request' exist. Returning true.
+2018-03-07 15:10:31 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:31 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Approved')]
+2018-03-07 15:10:31 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:31 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Approved')];xpath
+2018-03-07 15:10:31 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:31 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Approved')];xpath
+2018-03-07 15:10:31 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:31 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Approved')]
+2018-03-07 15:10:31 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:31 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:31 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:32 INFO  rootLogger:230 - This is my text: approved
+2018-03-07 15:10:32 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:32 INFO  rootLogger:230 - Text: 'approved' exist. Returning true.
+2018-03-07 15:10:32 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:32 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Denied')]
+2018-03-07 15:10:32 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:32 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Denied')];xpath
+2018-03-07 15:10:32 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:32 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Denied')];xpath
+2018-03-07 15:10:32 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:32 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Denied')]
+2018-03-07 15:10:32 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:32 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:32 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:33 INFO  rootLogger:230 - This is my text: denied
+2018-03-07 15:10:33 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:33 INFO  rootLogger:230 - Text: 'denied' exist. Returning true.
+2018-03-07 15:10:33 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:33 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Blocked')]
+2018-03-07 15:10:33 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:33 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Blocked')];xpath
+2018-03-07 15:10:33 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:33 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Blocked')];xpath
+2018-03-07 15:10:33 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:33 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Blocked')]
+2018-03-07 15:10:33 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:33 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:33 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:34 INFO  rootLogger:230 - This is my text: blocked
+2018-03-07 15:10:34 INFO  rootLogger:230 - This is the application text: advisor
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:34 INFO  rootLogger:230 - Text: 'blocked' exist. Returning true.
+2018-03-07 15:10:34 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Complete
+2018-03-07 15:10:34 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-03-07 15:10:39 INFO  rootLogger:230 - Pagename: Advisor
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-07 15:10:39 INFO  rootLogger:230 - get driver object
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: Page; Method: clickMiscElement
+2018-03-07 15:10:39 INFO  rootLogger:230 - Current tab name: Advisor
+2018-03-07 15:10:39 INFO  rootLogger:230 - ImageName: UserProfile
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementStringAndType
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:39 INFO  rootLogger:230 - Return: //i[@class='fa fa-user-circle-o']
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-07 15:10:39 INFO  rootLogger:230 - Return: //i[@class='fa fa-user-circle-o']
+2018-03-07 15:10:39 INFO  rootLogger:230 - xpath present
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:39 INFO  rootLogger:230 - frame: //i[@class='fa fa-user-circle-o'];xpath
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:39 INFO  rootLogger:230 - propField: //i[@class='fa fa-user-circle-o'];xpath
+2018-03-07 15:10:39 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:39 INFO  rootLogger:230 - switchValue: //i[@class='fa fa-user-circle-o']
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:39 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:40 INFO  rootLogger:230 - Element: 'UserProfile' exist and clicked. Returning true.
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Start
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:40 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Change Password')]
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:40 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Change Password')];xpath
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:40 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Change Password')];xpath
+2018-03-07 15:10:40 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:40 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Change Password')]
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:40 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:40 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:41 INFO  rootLogger:230 - This is my text: change password
+2018-03-07 15:10:41 INFO  rootLogger:230 - This is the application text: advisor
+change password
+logout
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:41 INFO  rootLogger:230 - Text: 'change password' exist. Returning true.
+2018-03-07 15:10:41 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-03-07 15:10:41 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Logout')]
+2018-03-07 15:10:41 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:41 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Logout')];xpath
+2018-03-07 15:10:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-07 15:10:42 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Logout')];xpath
+2018-03-07 15:10:42 INFO  rootLogger:230 - switchType: xpath
+2018-03-07 15:10:42 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Logout')]
+2018-03-07 15:10:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-07 15:10:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-07 15:10:42 INFO  rootLogger:230 - frame: 
+2018-03-07 15:10:42 INFO  rootLogger:230 - This is my text: logout
+2018-03-07 15:10:42 INFO  rootLogger:230 - This is the application text: advisor
+change password
+logout
+dashboard
+location_city
+facility
+date_range
+booking
+partners
+dashboard
+67
+total
+24
+new request
+30
+approved
+4
+denied
+9
+blocked
+latest facility - new request
+meeting 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+coworking 11
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per day
+per month
+100
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+wifiwifiwifi
+securitycreated with sketch.securitysecurity
+accreated with sketch.acac
+more
+conference 10
+bannerghatta road, bangalore
+status : pending for approval with verify request
+per hour
+per day
+per month
+10
+scheduler
+100 seats
+1000 sq ft
+power backuppower backuppower backup
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1024 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+send us a message
+2018-03-07 15:10:42 INFO  rootLogger:230 - Text: 'logout' exist. Returning true.
+2018-03-07 15:10:42 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Complete
+2018-03-07 15:10:42 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-07 15:10:42 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options complete.

@@ -1,0 +1,271 @@
+{
+    "BUTTONS": {
+        "submit": {
+            "path": "//button[@class='consumerModuleButtons submitButton']"
+        },
+        "PaymentsSearch": {
+            "id": "button_search"
+        },
+        "Save": {
+            "id": "button_save"
+        },
+        "SaveCommission": {
+            "id": "button_updateSpCommission"
+        },
+        "LocalitiesSave": {
+            "id": "button_saveForLocality"
+        },
+        "ActiveBlock": {
+            "id": "button_activeOrBlock"
+        },
+        "Find": {
+            "id": "button_find"
+        },
+        "NewAdviser": {
+            "id": "button_addNewAdvisor"
+        },
+        "SearchButton": {
+            "id": "button_search"
+        },
+        "+AddPolicy": {
+            "id": "button_terms"
+        },
+        "FileUpload": {
+            "path": "//*[@id='selectFile_input']"
+        },
+        "AddAmenity": {
+            "id": "buton_addAmenity"
+        },
+        "AddCity": {
+            "path": "//button[@class='addButton adminButton']"
+        },
+        "AddLocality": {
+            "id": "button_addLocality"
+        },
+        "OK": {
+            "id": "button_ok"
+        },
+        "OK2": {
+            "path": "//button[@class='consumerModuleButtons' and text()='OK']"
+        },
+        "BlockUnblock": {
+            "id": "button_blockUnblock"
+        },
+        "LinkedInsigninbutton": {
+            "id": "btn-primary"
+        },
+        "Facebookloginbutton": {
+            "id": "loginbutton"
+        },
+        "Next": {
+            "path": "//span[@class='RveJvd snByac' and text()='Next']"
+        },
+        "GoogleSigninbutton": {
+            "id": "gb_70"
+        },
+        "SaveChanges": {
+            "id": "button_saveChanges"
+        },
+        "Close": {
+            "path": "//div[@class='popup-footer' and descendant::*[text()='Close']]"
+        },
+        "Update": {
+            "id": "button_update"
+        },
+        "AddOffer": {
+            "id": "button_offerfacility"
+        }
+    },
+    "TEXT_FIELDS": {
+        "username": {
+            "id": "username"
+        },
+        "Password": {
+            "id": "password"
+        },
+        "ActiveDate": {
+            "id": "active-date"
+        },
+        "ServiceProvider": {
+            "id": "input_spName"
+        },
+        "NameMail-id": {
+            "id": "input_nameOrEmailId"
+        },
+        "NextMonth": {
+            "id": "input_newSpCommission"
+        },
+        "AdviserName": {
+            "id": "input_name"
+        },
+        "AdviserEmail": {
+            "id": "input_emailId"
+        },
+        "AdviserMobileNo": {
+            "id": "input_mobileNumber"
+        },
+        "AdviserPWD": {
+            "id": "input_password"
+        },
+        "SearchFacility": {
+            "id": "input_localityCitySp"
+        },
+        "AdviserDate": {
+            "id": "active-date"
+        },
+        "AmenityName": {
+            "id": "input_amenityName"
+        },
+        "CityName": {
+            "id": "input_cityName"
+        },
+        "EnterLocality": {
+            "id": "input_localityName"
+        },
+        "linkedInUsername": {
+            "id": "session_key-login"
+        },
+        "LinkedInPassword": {
+            "id": "session_password-login"
+        },
+        "FacebookUsername": {
+            "id": "email"
+        },
+        "FacebookPassword": {
+            "id": "pass"
+        },
+        "TwitterUsername": {
+            "path": "//input[@autocomplete='username']"
+        },
+        "TwitterPassword": {
+            "path": "//input[@autocomplete='current-password']"
+        },
+        "GoogleUsername": {
+            "id": "identifierId"
+        },
+        "GooglePassword": {
+            "path": "//input[@name='password']"
+        },
+        "SvgText": {
+            "id": "input_SVGTextAea"
+        },
+        "OldPassword": {
+            "id": "input_oldPassword"
+        },
+        "NewPassword": {
+            "id": "input_newPassword"
+        },
+        "ConfirmPassword": {
+            "id": "input_cPassword"
+        },
+        "Name": {
+            "id": "name"
+        },
+        "Offer": {
+            "id": "percentageOffer"
+        },
+        "FromOfferDate": {
+            "id":"offerDateStart"
+        },
+        "ToOfferDate": {
+            "id":"offerDateEnd"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "Dashboard": {
+            "path": "//div[contains (@class,'sideMenuItem') and child::p[text()='Dashboard']]"
+        },
+        "Payments": {
+            "path": "//div[contains (@class,'sideMenuItem') and child::p[text()='Payments']]"
+        },
+        "Users": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]"
+        },
+        "Facilities": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Facilities']]"
+        },
+        "Terms": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Terms']]"
+        },
+        "Amenities": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Amenities']]"
+        },
+        "Reports": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']]"
+        },
+        "Locations": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']]"
+        },
+        "UserProfile": {
+            "path": "//i[@class='fa fa-user-circle']"
+        },
+        "ChangePassword": {
+            "path": "//div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']]"
+        },
+        "Logout": {
+            "path": "//div[@class='userMenuSubFieldsContainer' and child::p[text()='Logout'] ]"
+        },
+        "EditProfile": {
+            "path": "//div[@class='userMenuSubFieldsContainer' and child::p[text()='Edit Profile']]"
+        },
+        "LinkedIn": {
+            "path": "//i[@class='fa fa-linkedin']"
+        },
+        "SignInLinkedIn": {
+            "path": "//a[@class='upsell__cta upsell__cta--secondary']"
+        },
+        "facebook": {
+            "path": "//i[@class='fa fa-facebook']"
+        },
+        "Twitter": {
+            "path": "//i[@class='fa fa-twitter']"
+        },
+        "Googleplus": {
+            "path": "//i[@class='fa fa-google-plus']"
+        },
+        "LinkedInSign": {
+            "path": "//a[@class='nav-header__guest-link' and  text()='Sign in']"
+        },
+        "TwitterLogin": {
+            "id": "//a[@id='signin-link']"
+        },
+        "Google+Signin": {
+            "id": "gb_70"
+        },
+        "santhosh": {
+            "path": "//div[@class='nameAndStatusContainer' and descendant::*[@class = 'userNameSpan']]"
+        },
+        "Offers": {
+            "path": "//div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']]"
+        },
+        "Jaipur": {
+            "id": "city8"
+        }
+    },
+    "DROPDOWNS": {
+        "SelectMonth": {
+            "id": "select_month"
+        },
+        "SelectYear": {
+            "id": "select_year"
+        },
+        "select-userType": {
+            "id": "select-userType"
+        },
+        "AllCities": {
+            "id": "select_city"
+        },
+        "selectUserType": {
+            "id": "select_userType"
+        },
+        "SearchFor": {
+            "id": "select_localityCitySP"
+        },
+        "searchType": {
+            "id": "select_facilityType"
+        },
+        "UserType": {
+            "id": "select-userType"
+        }
+    }
+}

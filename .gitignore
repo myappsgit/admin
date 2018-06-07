@@ -1,0 +1,53 @@
+#################
+## Custom
+#################
+
+*.png
+bookmark.txt
+setUp.txt
+*.html
+chromedriver.log
+src/Reports
+Reports/
+output/
+target/
+
+#################
+## Eclipse
+#################
+
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini

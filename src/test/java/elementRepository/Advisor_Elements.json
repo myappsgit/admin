@@ -1,0 +1,142 @@
+{
+    "BUTTONS": {
+        "Subbmit": {
+            "path": "//button[@class ='consumerModuleButtons submitButton']"
+        },
+        "Approve": {
+            "id": "button_approve"
+        },
+        "OK": {
+            "id": "button_ok_SessionNotExpired"
+        },
+        "Ok": {
+            "id": "button_ok"
+        },
+        "Filter": {
+            "id": "button_filter"
+        },
+        "Search": {
+            "id": "button_search"
+        },
+        "Deny": {
+            "id": "button_deny"
+        },
+        "Update": {
+            "id": "button_update"
+        },
+        "Block": {
+            "id": "button_block"
+        },
+        "Unblock": {
+            "id": "button_unblock"
+        },
+        "Search1": {
+            "id": "search_button"
+        },
+        "BookingFilter": {
+            "id": "fliter_button"
+        },
+        "UnBlock": {
+            "id": "button_unBlock"
+        },
+        "OK1": {
+            "id": "button_ok_sessionNotExpired"
+        },
+        "SaveChanges": {
+            "id": "button_saveChanges"
+        },
+        "Verify": {
+            "id": "button_verify"
+        },
+        "OkButton": {
+            "path": "//button[@id='button_ok']"
+        }
+    },
+    "TEXT_FIELDS": {
+        "username": {
+            "id": "username"
+        },
+        "Password": {
+            "id": "password"
+        },
+        "Comments": {
+            "id": "textarea_comment"
+        },
+        "SearchField": {
+            "id": "input_search"
+        },
+        "BookingSearch": {
+            "id": "search_input"
+        },
+        "OldPassword": {
+            "id": "input_oldPassword"
+        },
+        "NewPassword": {
+            "id": "input_newPassword"
+        },
+        "ConfirmPassword": {
+            "id": "input_confirmPassword"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "Dashboard": {
+            "path": "//div[@class='sidebarItems activeSection' and descendant::*[text() = 'Dashboard']]"
+        },
+        "Facility": {
+            "path": "//div[@class='sidebarItems' and descendant::*[text()='Facility']]"
+        },
+        "Booking": {
+            "path": "//div[@class ='sidebarItems' and descendant::*[text()='Booking']]"
+        },
+        "Partners": {
+            "path": "//div[@class='sidebarItems' and descendant::*[text()='Partners']]"
+        },
+        "NewRequest": {
+            "path": "//div[@class ='dashboardInfoContainer newRequestContainerColor' and descendant::* [text()='New Request']]"
+        },
+        "SelectFacility": {
+            "path": "/div[@class='facilityThumbnail' and following::div[@class='secondChildDivision' and descendant::*[contains(.,'imgMeetingRoom')]]]"
+        },
+        "UserProfile": {
+            "path": "//i[@class='fa fa-user-circle-o']"
+        },
+        "Logout": {
+            "path": "//div[@class='userMenuSubFieldsContainer' and descendant::*[text()='Logout']]"
+        },
+        "Facility1": {
+            "path": "//div[@class='imgMeetingRoom']"
+        },
+        "View": {
+            "path": "//i[@class='fa fa-eye iconDsegin']"
+        },
+        "ChangePassword": {
+            "path": "//div[@class='userMenuSubFieldsContainer' and descendant::*[text()='Change Password']]"
+        }
+    },
+    "DROPDOWNS": {
+        "SelectStatus": {
+            "path": "//huddil-dropdown-component[@formcontrolname='status']"
+        },
+        "SelectFacilityType": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()=' Select Facility Type']]"
+        },
+        "SelectCity": {
+            "path": "//huddil-dropdown-component[@formcontrolname='selectCity']"
+        },
+        "SelctLocality": {
+            "path": "//huddil-dropdown-component[@formcontrolname='selectLocality']"
+        },
+        "BookingStatus": {
+            "path": "//huddil-dropdown-component[@formcontrolname='status']"
+        },
+        "SelectBookingFacilityType": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()='Training Room']]"
+        },
+        "BookingSelectCity": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()='Bangalore']]"
+        },
+        "SelectLocality": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()=' Select Locality']]"
+        }
+    }
+}

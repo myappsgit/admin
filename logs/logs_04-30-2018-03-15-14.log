@@ -1,0 +1,98 @@
+2018-04-30 15:15:14 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-04-30 15:15:14 INFO  rootLogger:230 - Scenario: Verify Payment Details using search in Payments starting.
+2018-04-30 15:15:14 INFO  rootLogger:230 - Scenario Tag Name: @Sanity
+2018-04-30 15:15:14 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 15:15:14 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-04-30 15:15:14 INFO  rootLogger:230 - userName: admin@huddil.com
+2018-04-30 15:15:14 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-04-30 15:15:14 INFO  rootLogger:230 - Initializing JSON files
+2018-04-30 15:15:14 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 15:15:22 INFO  rootLogger:230 - Firefox driver initialized
+2018-04-30 15:15:24 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-04-30 15:15:24 INFO  rootLogger:230 - get driver object
+2018-04-30 15:15:24 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: SetUpFile; Method: logInApplication
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:10 INFO  rootLogger:230 - Return: username
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:10 INFO  rootLogger:230 - Return: password
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:10 INFO  rootLogger:230 - Return: null
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:10 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:10 INFO  rootLogger:230 - UserName: admin@huddil.com entered
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 15:16:10 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:10 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:11 INFO  rootLogger:230 - Password: password entered
+2018-04-30 15:16:11 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:11 INFO  rootLogger:230 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 15:16:11 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 15:16:11 INFO  rootLogger:230 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 15:16:11 INFO  rootLogger:230 - switchType: xpath
+2018-04-30 15:16:11 INFO  rootLogger:230 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 15:16:11 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 15:16:11 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:11 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:13 INFO  rootLogger:230 - Login button clicked
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 15:16:13 INFO  rootLogger:230 - parentWindow: 4294967297
+2018-04-30 15:16:13 INFO  rootLogger:230 - windowHandle: 4294967297
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-04-30 15:16:13 INFO  rootLogger:230 - get driver object
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-30 15:16:13 INFO  rootLogger:230 - get driver object
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: Page; Method: findPage
+2018-04-30 15:16:13 INFO  rootLogger:230 - Current tab name: Admin
+2018-04-30 15:16:13 INFO  rootLogger:230 - PaneName: Admin
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:13 INFO  rootLogger:230 - Exception: null
+2018-04-30 15:16:13 INFO  rootLogger:230 - Pane xpath: null
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-30 15:16:13 INFO  rootLogger:230 - get driver object
+2018-04-30 15:16:13 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:13 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:14 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 15:16:14 INFO  rootLogger:230 - Pagename: Admin
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-30 15:16:14 INFO  rootLogger:230 - get driver object
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: Page; Method: clickMiscElement
+2018-04-30 15:16:14 INFO  rootLogger:230 - Current tab name: Admin
+2018-04-30 15:16:14 INFO  rootLogger:230 - ImageName: Payments
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:14 INFO  rootLogger:230 - Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:14 INFO  rootLogger:230 - Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 15:16:14 INFO  rootLogger:230 - Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Unknown Element Type
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:14 INFO  rootLogger:230 - frame: null;null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Element not found after timeout of 10 seconds. Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 15:16:14 INFO  rootLogger:230 - propField: null;null
+2018-04-30 15:16:14 INFO  rootLogger:230 - switchType: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - switchValue: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 15:16:14 INFO  rootLogger:230 - frame: 
+2018-04-30 15:16:14 INFO  rootLogger:230 - Element not found after timeout of 1 seconds. Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Element not found. Returning null. Exception: null
+2018-04-30 15:16:14 INFO  rootLogger:230 - Element: 'Payments' does not exist. Returning false.
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 15:16:14 INFO  rootLogger:230 - Scenario: Verify Payment Details using search in Payments - Failed
+2018-04-30 15:16:14 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-04-30 15:16:17 INFO  rootLogger:230 - Browser closed
+2018-04-30 15:16:17 INFO  rootLogger:230 - Tried to kill process with PID: 9684
+2018-04-30 15:16:17 INFO  rootLogger:230 - Scenario: Verify Payment Details using search in Payments complete.

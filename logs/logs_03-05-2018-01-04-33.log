@@ -1,0 +1,177 @@
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value to read: APP
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value to read: SECTION
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value to read: TAG_NAME
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:04:33 INFO  rootLogger:230 - KeyName: url
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value: http://198.1.85.118/
+2018-03-05 13:04:33 INFO  rootLogger:230 - Returning: http://198.1.85.118/
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:04:33 INFO  rootLogger:230 - KeyName: username
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value: reddyswethu26@gmail.com
+2018-03-05 13:04:33 INFO  rootLogger:230 - Returning: reddyswethu26@gmail.com
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:04:33 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:04:33 INFO  rootLogger:230 - KeyName: password
+2018-03-05 13:04:33 INFO  rootLogger:230 - Value: password
+2018-03-05 13:04:33 INFO  rootLogger:230 - Returning: password
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-05 13:04:33 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options starting.
+2018-03-05 13:04:33 INFO  rootLogger:230 - Scenario Tag Name: @Sanity1
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-05 13:04:33 INFO  rootLogger:230 - userName: advisor@huddil.com
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-03-05 13:04:33 INFO  rootLogger:230 - Initializing JSON files
+2018-03-05 13:04:33 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-05 13:04:39 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-05 13:04:40 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:04:40 INFO  rootLogger:230 - get driver object
+2018-03-05 13:04:40 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-05 13:05:12 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-05 13:05:12 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options - Failed
+2018-03-05 13:05:12 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-03-05 13:05:13 INFO  rootLogger:230 - Browser closed
+2018-03-05 13:05:13 INFO  rootLogger:230 - Tried to kill process with PID: 5820
+2018-03-05 13:05:13 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options complete.
+2018-03-05 13:05:13 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-05 13:05:13 INFO  rootLogger:230 - Scenario: Verify Search Options in Search Page starting.
+2018-03-05 13:05:13 INFO  rootLogger:230 - Scenario Tag Name: @Sanity1
+2018-03-05 13:05:13 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-05 13:05:13 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-05 13:05:13 INFO  rootLogger:230 - userName: swetha.r@myapps-solutions.com
+2018-03-05 13:05:13 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-05 13:05:19 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-05 13:05:20 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:05:20 INFO  rootLogger:230 - get driver object
+2018-03-05 13:05:20 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-05 13:06:13 INFO  rootLogger:230 - Scenario: Verify Search Options in Search Page - Failed
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-03-05 13:06:13 INFO  rootLogger:230 - Browser closed
+2018-03-05 13:06:13 INFO  rootLogger:230 - Tried to kill process with PID: 8584
+2018-03-05 13:06:13 INFO  rootLogger:230 - Scenario: Verify Search Options in Search Page complete.
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-05 13:06:13 INFO  rootLogger:230 - Scenario: Verify Filter Options in Search Page starting.
+2018-03-05 13:06:13 INFO  rootLogger:230 - Scenario Tag Name: @Sanity1
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-05 13:06:13 INFO  rootLogger:230 - userName: swetha.r@myapps-solutions.com
+2018-03-05 13:06:13 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-05 13:06:19 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-05 13:06:20 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:06:20 INFO  rootLogger:230 - get driver object
+2018-03-05 13:06:20 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: SetUpFile; Method: logInApplication
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:18 INFO  rootLogger:230 - Return: username
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:18 INFO  rootLogger:230 - Return: password
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:18 INFO  rootLogger:230 - Return: null
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-05 13:07:18 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:18 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:19 INFO  rootLogger:230 - UserName: swetha.r@myapps-solutions.com entered
+2018-03-05 13:07:19 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-05 13:07:19 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:19 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:20 INFO  rootLogger:230 - Password: password1 entered
+2018-03-05 13:07:20 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:20 INFO  rootLogger:230 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-05 13:07:20 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-05 13:07:20 INFO  rootLogger:230 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-05 13:07:20 INFO  rootLogger:230 - switchType: xpath
+2018-03-05 13:07:20 INFO  rootLogger:230 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-03-05 13:07:20 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-05 13:07:20 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:20 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:23 INFO  rootLogger:230 - Login button clicked
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-03-05 13:07:23 INFO  rootLogger:230 - parentWindow: 4294967297
+2018-03-05 13:07:23 INFO  rootLogger:230 - windowHandle: 4294967297
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:07:23 INFO  rootLogger:230 - get driver object
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-05 13:07:23 INFO  rootLogger:230 - get driver object
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Page; Method: findPage
+2018-03-05 13:07:23 INFO  rootLogger:230 - Current tab name: Consumer
+2018-03-05 13:07:23 INFO  rootLogger:230 - PaneName: Consumer
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:23 INFO  rootLogger:230 - Exception: null
+2018-03-05 13:07:23 INFO  rootLogger:230 - Pane xpath: null
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-05 13:07:23 INFO  rootLogger:230 - get driver object
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:23 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:23 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-03-05 13:07:23 INFO  rootLogger:230 - get driver object
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Page; Method: selectDropDownInPane
+2018-03-05 13:07:23 INFO  rootLogger:230 - Current tab name: Consumer
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-03-05 13:07:23 INFO  rootLogger:230 - PaneName: Consumer
+2018-03-05 13:07:23 INFO  rootLogger:230 - Dropdown Name: SelectFacilityType
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementStringAndType
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:23 INFO  rootLogger:230 - Return: //huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType']
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-03-05 13:07:23 INFO  rootLogger:230 - Return: //huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType']
+2018-03-05 13:07:23 INFO  rootLogger:230 - xpath present
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Page; Method: selectDropDownOption
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:23 INFO  rootLogger:230 - frame: //huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType'];xpath
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-03-05 13:07:23 INFO  rootLogger:230 - propField: //huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType'];xpath
+2018-03-05 13:07:23 INFO  rootLogger:230 - switchType: xpath
+2018-03-05 13:07:23 INFO  rootLogger:230 - switchValue: //huddil-dropdown-component[@class='ng-untouched ng-dirty ng-invalid' and @formcontrolname='facilityType']
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-03-05 13:07:23 INFO  rootLogger:230 - frame: 
+2018-03-05 13:07:23 INFO  rootLogger:230 - Drop down element not null
+2018-03-05 13:07:23 INFO  rootLogger:230 - Item Co-Working Space not selected from drop down due to Exception: Element should have been "select" but was "huddil-dropdown-component"
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+2018-03-05 13:07:23 INFO  rootLogger:230 - Item Co-Working Space not selected from dropDown SelectFacilityType due to Exception: Element <huddil-dropdown-component class="ng-untouched ng-dirty ng-invalid"> is not clickable at point (986.5,370.54998779296875) because another element <form class="ng-dirty ng-touched ng-invalid"> obscures it
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\user\AppData\Local\Temp\rust_mozprofile.j9O9huoDHxsY, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=9564, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 0d00fd00-0f14-4f13-b443-dbc0a7f7fa47
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-05 13:07:23 INFO  rootLogger:230 - Scenario: Verify Filter Options in Search Page - Failed
+2018-03-05 13:07:23 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-03-05 13:07:25 INFO  rootLogger:230 - Browser closed
+2018-03-05 13:07:25 INFO  rootLogger:230 - Tried to kill process with PID: 9564
+2018-03-05 13:07:25 INFO  rootLogger:230 - Scenario: Verify Filter Options in Search Page complete.
+2018-03-05 13:07:25 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-05 13:07:25 INFO  rootLogger:230 - Scenario: Verify Add Attendees starting.
+2018-03-05 13:07:25 INFO  rootLogger:230 - Scenario Tag Name: @Sanity1
+2018-03-05 13:07:25 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-05 13:07:25 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-05 13:07:25 INFO  rootLogger:230 - userName: swetha.r@myapps-solutions.com
+2018-03-05 13:07:25 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-05 13:07:31 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-05 13:07:33 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:07:33 INFO  rootLogger:230 - get driver object
+2018-03-05 13:07:33 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-05 13:08:15 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-05 13:08:15 INFO  rootLogger:230 - Scenario: Verify Add Attendees - Failed
+2018-03-05 13:08:15 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-03-05 13:08:15 INFO  rootLogger:230 - Browser closed
+2018-03-05 13:08:15 INFO  rootLogger:230 - Tried to kill process with PID: 7436
+2018-03-05 13:08:15 INFO  rootLogger:230 - Scenario: Verify Add Attendees complete.
+2018-03-05 13:08:15 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowser

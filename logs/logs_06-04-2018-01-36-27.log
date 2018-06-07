@@ -1,0 +1,223 @@
+2018-06-04 13:36:27 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-06-04 13:36:27 INFO  rootLogger:232 - Scenario: Verify Adding Locality starting.
+2018-06-04 13:36:27 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-06-04 13:36:28 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-06-04 13:36:28 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-06-04 13:36:28 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-06-04 13:36:28 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-06-04 13:36:28 INFO  rootLogger:232 - Initializing JSON files
+2018-06-04 13:36:28 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-06-04 13:36:31 INFO  rootLogger:232 - ChromeDriver initialized
+2018-06-04 13:36:32 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 13:36:32 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:32 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:41 INFO  rootLogger:232 - Return: username
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:41 INFO  rootLogger:232 - Return: password
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:41 INFO  rootLogger:232 - Return: null
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:41 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:41 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:41 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:41 INFO  rootLogger:232 - Password: password entered
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:41 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:41 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 13:36:41 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 13:36:41 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:41 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:43 INFO  rootLogger:232 - Login button clicked
+2018-06-04 13:36:43 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-06-04 13:36:43 INFO  rootLogger:232 - parentWindow: CDwindow-522E2C48E27661572A5D1ADC3F05618E
+2018-06-04 13:36:43 INFO  rootLogger:232 - windowHandle: CDwindow-522E2C48E27661572A5D1ADC3F05618E
+2018-06-04 13:36:43 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 13:36:43 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:43 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-06-04 13:36:43 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-06-04 13:36:43 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:43 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-06-04 13:36:44 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 13:36:44 INFO  rootLogger:232 - PaneName: Admin
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:44 INFO  rootLogger:232 - Exception: null
+2018-06-04 13:36:44 INFO  rootLogger:232 - Pane xpath: null
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:44 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:44 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:44 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-06-04 13:36:45 INFO  rootLogger:232 - Pagename: Admin
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:45 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-06-04 13:36:45 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 13:36:45 INFO  rootLogger:232 - ImageName: Locations
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:45 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']]
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:45 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']]
+2018-06-04 13:36:45 INFO  rootLogger:232 - xpath present
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:45 INFO  rootLogger:232 - frame: //div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']];xpath
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:45 INFO  rootLogger:232 - propField: //div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']];xpath
+2018-06-04 13:36:45 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 13:36:45 INFO  rootLogger:232 - switchValue: //div[contains (@class,  'sideMenuItem') and child::p[text()='Locations']]
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:45 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:46 INFO  rootLogger:232 - Element: 'Locations' exist and clicked. Returning true.
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-06-04 13:36:46 INFO  rootLogger:232 - Pagename: Admin
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:46 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-06-04 13:36:46 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 13:36:46 INFO  rootLogger:232 - ImageName: Jaipur
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:46 INFO  rootLogger:232 - Return: null
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:46 INFO  rootLogger:232 - Return: city8
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:46 INFO  rootLogger:232 - Return: city8
+2018-06-04 13:36:46 INFO  rootLogger:232 - id present
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:46 INFO  rootLogger:232 - frame: city8;id
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:46 INFO  rootLogger:232 - propField: city8;id
+2018-06-04 13:36:46 INFO  rootLogger:232 - switchType: id
+2018-06-04 13:36:46 INFO  rootLogger:232 - switchValue: city8
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:46 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:46 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:47 INFO  rootLogger:232 - Element: 'Jaipur' exist and clicked. Returning true.
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:47 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: Page; Method: clickButton
+2018-06-04 13:36:47 INFO  rootLogger:232 - Current page name: Admin
+2018-06-04 13:36:47 INFO  rootLogger:232 - Button to be clicked: AddLocality
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:47 INFO  rootLogger:232 - Return: null
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:47 INFO  rootLogger:232 - Return: button_addLocality
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:47 INFO  rootLogger:232 - Return: button_addLocality
+2018-06-04 13:36:47 INFO  rootLogger:232 - id present
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:47 INFO  rootLogger:232 - frame: button_addLocality;id
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:47 INFO  rootLogger:232 - propField: button_addLocality;id
+2018-06-04 13:36:47 INFO  rootLogger:232 - switchType: id
+2018-06-04 13:36:47 INFO  rootLogger:232 - switchValue: button_addLocality
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:47 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:47 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:47 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:47 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:48 INFO  rootLogger:232 - Button 'AddLocality' object not null and is clicked. Returning true.
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:48 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: Page; Method: setTextBox
+2018-06-04 13:36:48 INFO  rootLogger:232 - Current page name: Admin
+2018-06-04 13:36:48 INFO  rootLogger:232 - Text box field name: EnterLocality
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:48 INFO  rootLogger:232 - Return: null
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:48 INFO  rootLogger:232 - Return: input_localityName
+2018-06-04 13:36:48 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:48 INFO  rootLogger:232 - Return: input_localityName
+2018-06-04 13:36:48 INFO  rootLogger:232 - id present
+2018-06-04 13:36:48 INFO  rootLogger:232 - Text box textPath: input_localityName
+2018-06-04 13:36:48 INFO  rootLogger:232 - Text box textMethod: id
+2018-06-04 13:36:49 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:49 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:49 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:49 INFO  rootLogger:232 - propField: input_localityName;id
+2018-06-04 13:36:49 INFO  rootLogger:232 - switchType: id
+2018-06-04 13:36:49 INFO  rootLogger:232 - switchValue: input_localityName
+2018-06-04 13:36:49 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:49 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:49 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:50 INFO  rootLogger:232 - Text box 'EnterLocality' object not null. Entered Value: 'RoadNo1'. Returning true.
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: enterInTheField : Complete
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:50 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: Page; Method: clickButton
+2018-06-04 13:36:50 INFO  rootLogger:232 - Current page name: Admin
+2018-06-04 13:36:50 INFO  rootLogger:232 - Button to be clicked: LocalitiesSave
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:50 INFO  rootLogger:232 - Return: null
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:50 INFO  rootLogger:232 - Return: button_saveForLocality
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:50 INFO  rootLogger:232 - Return: button_saveForLocality
+2018-06-04 13:36:50 INFO  rootLogger:232 - id present
+2018-06-04 13:36:50 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:50 INFO  rootLogger:232 - frame: button_saveForLocality;id
+2018-06-04 13:36:51 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:51 INFO  rootLogger:232 - propField: button_saveForLocality;id
+2018-06-04 13:36:51 INFO  rootLogger:232 - switchType: id
+2018-06-04 13:36:51 INFO  rootLogger:232 - switchValue: button_saveForLocality
+2018-06-04 13:36:51 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:51 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:51 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:52 INFO  rootLogger:232 - Button 'LocalitiesSave' object not null and is clicked. Returning true.
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Start
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 13:36:52 INFO  rootLogger:232 - get driver object
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: Page; Method: clickButton
+2018-06-04 13:36:52 INFO  rootLogger:232 - Current page name: Admin
+2018-06-04 13:36:52 INFO  rootLogger:232 - Button to be clicked: OK2
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:52 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons' and text()='OK']
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 13:36:52 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons' and text()='OK']
+2018-06-04 13:36:52 INFO  rootLogger:232 - xpath present
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:52 INFO  rootLogger:232 - frame: //button[@class='consumerModuleButtons' and text()='OK'];xpath
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 13:36:52 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons' and text()='OK'];xpath
+2018-06-04 13:36:52 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 13:36:52 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons' and text()='OK']
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 13:36:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 13:36:52 INFO  rootLogger:232 - frame: 
+2018-06-04 13:36:53 INFO  rootLogger:232 - Button 'OK2' object not null and is clicked. Returning true.
+2018-06-04 13:36:53 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickButton : Complete
+2018-06-04 13:36:53 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-06-04 13:36:53 INFO  rootLogger:232 - Scenario: Verify Adding Locality complete.

@@ -1,0 +1,122 @@
+2018-05-09 10:40:40 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-05-09 10:40:40 INFO  rootLogger:232 - Scenario: Verify Edit Admin Name starting.
+2018-05-09 10:40:40 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-05-09 10:40:40 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-05-09 10:40:40 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-05-09 10:40:40 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-05-09 10:40:40 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-05-09 10:40:40 INFO  rootLogger:232 - Initializing JSON files
+2018-05-09 10:40:41 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-05-09 10:40:44 INFO  rootLogger:232 - ChromeDriver initialized
+2018-05-09 10:40:45 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-05-09 10:40:45 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:45 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:54 INFO  rootLogger:232 - Return: username
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:54 INFO  rootLogger:232 - Return: password
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:54 INFO  rootLogger:232 - Return: null
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:54 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:54 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:55 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:55 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:55 INFO  rootLogger:232 - Password: password entered
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:55 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-05-09 10:40:55 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-05-09 10:40:55 INFO  rootLogger:232 - switchType: xpath
+2018-05-09 10:40:55 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:55 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:55 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:57 INFO  rootLogger:232 - Login button clicked
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-05-09 10:40:57 INFO  rootLogger:232 - parentWindow: CDwindow-6EF88ABF5D22F7E03D4B269D7949FCF7
+2018-05-09 10:40:57 INFO  rootLogger:232 - windowHandle: CDwindow-6EF88ABF5D22F7E03D4B269D7949FCF7
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-05-09 10:40:57 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-05-09 10:40:57 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-05-09 10:40:57 INFO  rootLogger:232 - Current tab name: Admin
+2018-05-09 10:40:57 INFO  rootLogger:232 - PaneName: Admin
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:57 INFO  rootLogger:232 - Exception: null
+2018-05-09 10:40:57 INFO  rootLogger:232 - Pane xpath: null
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-05-09 10:40:57 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:57 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:57 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-05-09 10:40:57 INFO  rootLogger:232 - Pagename: Admin
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-05-09 10:40:57 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-05-09 10:40:57 INFO  rootLogger:232 - Current tab name: Admin
+2018-05-09 10:40:57 INFO  rootLogger:232 - ImageName: UserProfile
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:57 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:57 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-05-09 10:40:57 INFO  rootLogger:232 - xpath present
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:57 INFO  rootLogger:232 - frame: //i[@class='fa fa-user-circle'];xpath
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-05-09 10:40:57 INFO  rootLogger:232 - propField: //i[@class='fa fa-user-circle'];xpath
+2018-05-09 10:40:57 INFO  rootLogger:232 - switchType: xpath
+2018-05-09 10:40:57 INFO  rootLogger:232 - switchValue: //i[@class='fa fa-user-circle']
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:57 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:58 INFO  rootLogger:232 - Element: 'UserProfile' exist and clicked. Returning true.
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-05-09 10:40:58 INFO  rootLogger:232 - Pagename: Admin
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-05-09 10:40:58 INFO  rootLogger:232 - get driver object
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-05-09 10:40:58 INFO  rootLogger:232 - Current tab name: Admin
+2018-05-09 10:40:58 INFO  rootLogger:232 - ImageName: EditProfile
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:58 INFO  rootLogger:232 - Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:58 INFO  rootLogger:232 - Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-05-09 10:40:58 INFO  rootLogger:232 - Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Unknown Element Type
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:58 INFO  rootLogger:232 - frame: null;null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Element not found after timeout of 10 seconds. Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-05-09 10:40:58 INFO  rootLogger:232 - propField: null;null
+2018-05-09 10:40:58 INFO  rootLogger:232 - switchType: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - switchValue: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-05-09 10:40:58 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-05-09 10:40:58 INFO  rootLogger:232 - frame: 
+2018-05-09 10:40:58 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Element not found. Returning null. Exception: null
+2018-05-09 10:40:58 INFO  rootLogger:232 - Element: 'EditProfile' does not exist. Returning false.
+2018-05-09 10:40:59 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-05-09 10:40:59 INFO  rootLogger:232 - Scenario: Verify Edit Admin Name - Failed
+2018-05-09 10:40:59 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-05-09 10:41:00 INFO  rootLogger:232 - Browser closed
+2018-05-09 10:41:00 INFO  rootLogger:232 - Tried to kill process with PID: 5292
+2018-05-09 10:41:00 INFO  rootLogger:232 - Scenario: Verify Edit Admin Name complete.

@@ -1,0 +1,138 @@
+2018-04-30 16:19:01 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 16:19:01 INFO  rootLogger:232 - Scenario: Verify FB Login starting.
+2018-04-30 16:19:01 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 16:19:02 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 16:19:02 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 16:19:02 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 16:19:02 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-04-30 16:19:02 INFO  rootLogger:232 - Initializing JSON files
+2018-04-30 16:19:02 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 16:19:08 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 16:19:11 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 16:19:11 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:11 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:41 INFO  rootLogger:232 - Return: username
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:41 INFO  rootLogger:232 - Return: password
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:41 INFO  rootLogger:232 - Return: null
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:41 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:41 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:41 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:41 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:42 INFO  rootLogger:232 - Password: password entered
+2018-04-30 16:19:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:42 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 16:19:42 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 16:19:42 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 16:19:42 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 16:19:42 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 16:19:42 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:42 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:42 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:44 INFO  rootLogger:232 - Login button clicked
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 16:19:44 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 16:19:44 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 16:19:44 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:44 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-04-30 16:19:44 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 16:19:44 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:44 INFO  rootLogger:232 - Exception: null
+2018-04-30 16:19:44 INFO  rootLogger:232 - Pane xpath: null
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:44 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:44 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:44 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:44 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 16:19:45 INFO  rootLogger:232 - Pagename: Admin
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:45 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-04-30 16:19:45 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 16:19:45 INFO  rootLogger:232 - ImageName: facebook
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:45 INFO  rootLogger:232 - Return: //i[@class='fa fa-facebook']
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:45 INFO  rootLogger:232 - Return: //i[@class='fa fa-facebook']
+2018-04-30 16:19:45 INFO  rootLogger:232 - xpath present
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:45 INFO  rootLogger:232 - frame: //i[@class='fa fa-facebook'];xpath
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 16:19:45 INFO  rootLogger:232 - propField: //i[@class='fa fa-facebook'];xpath
+2018-04-30 16:19:45 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 16:19:45 INFO  rootLogger:232 - switchValue: //i[@class='fa fa-facebook']
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:45 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:45 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:45 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:45 INFO  rootLogger:232 - Element: 'facebook' exist and clicked. Returning true.
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 16:19:45 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 16:19:45 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 16:19:45 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:49 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: Page; Method: setTextBox
+2018-04-30 16:19:49 INFO  rootLogger:232 - Current page name: Admin
+2018-04-30 16:19:49 INFO  rootLogger:232 - Text box field name: FacebookUsername
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:49 INFO  rootLogger:232 - Return: null
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:49 INFO  rootLogger:232 - Return: email
+2018-04-30 16:19:49 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 16:19:49 INFO  rootLogger:232 - Return: email
+2018-04-30 16:19:49 INFO  rootLogger:232 - id present
+2018-04-30 16:19:49 INFO  rootLogger:232 - Text box textPath: email
+2018-04-30 16:19:49 INFO  rootLogger:232 - Text box textMethod: id
+2018-04-30 16:19:50 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 16:19:50 INFO  rootLogger:232 - get driver object
+2018-04-30 16:19:50 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 16:19:50 INFO  rootLogger:232 - propField: email;id
+2018-04-30 16:19:50 INFO  rootLogger:232 - switchType: id
+2018-04-30 16:19:50 INFO  rootLogger:232 - switchValue: email
+2018-04-30 16:19:50 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 16:19:50 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 16:19:50 INFO  rootLogger:232 - frame: 
+2018-04-30 16:19:51 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-30 16:19:51 INFO  rootLogger:232 - Element not found. Returning null. Exception: Unable to locate element: #email
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.xqF1wYmA6pI1, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=8948, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 6961f8db-c5dc-4ba1-881e-d920bf62fd46
+*** Element info: {Using=id, value=email}
+2018-04-30 16:19:51 INFO  rootLogger:232 - Text box 'FacebookUsername' object is null. Returning false.
+2018-04-30 16:19:51 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 16:19:51 INFO  rootLogger:232 - Scenario: Verify FB Login - Failed
+2018-04-30 16:19:51 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 16:19:51 INFO  rootLogger:232 - Browser closed
+2018-04-30 16:19:51 INFO  rootLogger:232 - Tried to kill process with PID: 8948
+2018-04-30 16:19:51 INFO  rootLogger:232 - Scenario: Verify FB Login complete.

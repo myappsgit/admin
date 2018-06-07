@@ -1,0 +1,284 @@
+{
+    "BUTTONS": {
+        "SignUpSubmit": {
+            "id": "register_signup_button"
+        },
+        "AddFacility": {
+            "path": "//button[@id='button_add' and @ng-reflect-router-link='/service-provider/add-facility']"
+        },
+        "AddLocation": {
+            "path": "//div[@class='addLocationIcon' and descendant::*[text()='Name']]"
+        },
+        "Add": {
+            "id": "button_add"
+        },
+        "Next": {
+            "id": "button_next"
+        },
+        "OfferAdd": {
+            "path": "//i[@class='fa fa-plus labelIcon requiredFields']"
+        },
+        "CancelAdd": {
+            "path": "//i[@class='fa fa-plus labelIcon']"
+        },
+        "Next2": {
+            "id": "button_next2"
+        },
+        "Submit": {
+            "id": "button_submit"
+        },
+        "ManageFacility": {
+            "id": "button_edit"
+        },
+        "BlockFacility": {
+            "id": "button_blockfacility"
+        },
+        "Deactivate": {
+            "id": "button_activateDeactivateText"
+        },
+        "Confirm": {
+            "id": "button_confirm"
+        },
+        "Activate": {
+            "id": "button_activateDeactivateText"
+        },
+        "UpdatePrice": {
+            "id": "button_blockfacility"
+        },
+        "OK": {
+            "path": "//button[@class='consumerModuleButtons' and text()='OK' and parent::div[@class='popup-footer']]"
+        },
+        "CancelBooking": {
+            "id": "button_cancelBooking3"
+        },
+        "YES": {
+            "id": "button_yes"
+        },
+        "Filter": {
+            "id": "button_filter"
+        },
+        "Search": {
+            "id": "button_search"
+        },
+        "Edit": {
+            "id": "button_edit"
+        },
+        "Next3": {
+            "path": "//button[@class='filterFindButton  consumerModuleButtons' and text()='Next']"
+        },
+        "SendOTP": {
+            "id": "button_sendOTP"
+        },
+        "SaveChanges": {
+            "id": "button_saveChanges"
+        },
+        "SuccessOK": {
+            "id": "button_ok_sessionNotExpired"
+        },
+        "LogoutOK": {
+            "id": "button_ok"
+        }
+    },
+    "TEXT_FIELDS": {
+        "SPUsername": {
+            "id": "username"
+        },
+        "SPPassword": {
+            "id": "password"
+        },
+        "SignUpConPassword": {
+            "id": "password"
+        },
+        "PleaseEnterName": {
+            "id": "input_name"
+        },
+        "PleaseEnteraddress": {
+            "id": "input_address"
+        },
+        "PleaseEnterlandmark": {
+            "id": "input_landmark"
+        },
+        "PleaseEnternearBy": {
+            "id": "input_nearBy1"
+        },
+        "FacilityMeetingRoomName": {
+            "id": "input_meetingRoom"
+        },
+        "FacilityNoOfSeats": {
+            "id": "input_noOfSeats"
+        },
+        "FacilityAreaSizeSq": {
+            "id": "input_areaSize"
+        },
+        "FacilityDescription": {
+            "id": "textarea_description"
+        },
+        "CostPerHour": {
+            "id": "input_costPerHour"
+        },
+        "CostPerDay": {
+            "id": "input_costPerDay"
+        },
+        "CostPerMonth": {
+            "id": "input_costPerMonth"
+        },
+        "From": {
+            "id": "datePicker"
+        },
+        "To": {
+            "id": "datePicker2"
+        },
+        "%OfOffer": {
+            "id": "input_%OfOffer"
+        },
+        "NoOfDaysBefore": {
+            "id": "input_numberOfDays"
+        },
+        "%OfDeduction": {
+            "id": "input_cancellationCharges"
+        },
+        "NoOfDaysBefore2": {
+            "id": "input_noOfDaysBefore2"
+        },
+        "%OfDeduction2": {
+            "id": "input_cancelationCharge2"
+        },
+        "NoOfDaysBefore3": {
+            "id": "input_noOfDaysBefore3"
+        },
+        "%OfDeduction3": {
+            "path": "//input[@formcontrolname='cancelationCharge3']"
+        },
+        "SpContactNumber": {
+            "id": "input_contactNumber"
+        },
+        "SpEmail": {
+            "id": "input_email"
+        },
+        "FromDate": {
+            "id": "blockDateStart"
+        },
+        "ToDate": {
+            "id": "blockDateEnd"
+        },
+        "ReasonForDeactivation": {
+            "id": "deactivationReason"
+        },
+        "FacilityTitle": {
+            "id": "input_search"
+        },
+        "BookingId": {
+            "id": "input_bookingId"
+        },
+        "EnterOTP": {
+            "id": "input_OTP"
+        },
+        "EnterNewMobileNumber": {
+            "id": "input_newMobile"
+        },
+        "OldPassword": {
+            "id": "input_oldPassword"
+        },
+        "NewPassword": {
+            "id": "input_newPassword"
+        },
+        "ConfirmPassword": {
+            "id": "input_confirmPassword"
+        },
+        "UpdateCostPerHour": {
+            "path": "//input[@formcontrolname='updateCostPerHour']"
+        },
+        "UpdateCostPerDay": {
+            "path": "//input[@formcontrolname='updateCostPerDay']"
+        },
+        "UpdateCostPerMonth": {
+            "path": "//input[@formcontrolname='updateCostPerMonth']"
+        }
+    },
+    "DROPDOWNS": {
+        "SelectFacilityType": {
+            "id": "select_facilityType"
+        },
+        "SelectCity": {
+            "id": "select_city"
+        },
+        "Locality": {
+            "id": "select_locality"
+        },
+        "Building/Location": {
+            "id": "select_location"
+        },
+        "PaymentMode": {
+            "id": "select_payment"
+        },
+        "SelectFacilityType1": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()=' Select Facility Type']]"
+        },
+        "City": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()=' Select City']]"
+        },
+        "SelectLocality": {
+            "path": "//div[@class='huddilSelect' and descendant::*[text()=' Select Locality']]"
+        },
+        "Month": {
+            "id": "select_month"
+        },
+        "BookingStatus": {
+            "path": "//div[@class='parentDiv' and descendant::*[text()=' Select Status']]"
+        },
+        "SelectStatus": {
+            "path": "//div[@class='parentDiv' and descendant::*[text()=' Select Status']]"
+        }
+    },
+    "RADIOS": {
+        "BlockFacility": {
+            "path": "//p[text()='Block facility']/parent::div//preceding-sibling::input"
+        },
+        "PriceDetails": {
+            "path": "//p[text()='Price Details']/parent::div//preceding-sibling::input"
+        },
+        "DeactivateFacility": {
+            "id": "actiradio"
+        },
+        "ActivateFacility": {
+            "id": "actiradio"
+        }
+    },
+    "CHECKBOXES": {
+        "RequestHuddilVerfication": {
+            "path": "//input[@formcontrolname='huddilVerify']"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "ImageUpload": {
+            "id": "input_selectFile"
+        },
+        "Dashboard": {
+            "path": "//p[text()='Dashboard']"
+        },
+        "Facility": {
+            "path": "//p[text()='Facility']"
+        },
+        "Booking": {
+            "path": "//p[text()='Booking']"
+        },
+        "Payment": {
+            "path": "//p[text()='Payment']"
+        },
+        "UserName": {
+            "path": "//i[@class='fa fa-user-circle-o']"
+        },
+        "ViewAll": {
+            "path": "//p[text()='Edit Profile']"
+        },
+        "EditProfile": {
+            "path": "//p[text()='Edit Profile']"
+        },
+        "ChangePassword": {
+            "path": "//p[text()='Change Password']"
+        },
+        "Logout": {
+            "path": "//p[text()='Logout']"
+        }
+    }
+}

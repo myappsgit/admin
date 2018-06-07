@@ -1,0 +1,125 @@
+2018-06-04 12:02:49 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-06-04 12:02:49 INFO  rootLogger:232 - Scenario: Verify Payment Status on Dashboard starting.
+2018-06-04 12:02:49 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-06-04 12:02:50 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-06-04 12:02:50 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-06-04 12:02:50 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-06-04 12:02:50 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-06-04 12:02:50 INFO  rootLogger:232 - Initializing JSON files
+2018-06-04 12:02:50 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-06-04 12:02:56 INFO  rootLogger:232 - ChromeDriver initialized
+2018-06-04 12:02:58 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 12:02:58 INFO  rootLogger:232 - get driver object
+2018-06-04 12:02:58 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:18 INFO  rootLogger:232 - Return: username
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:18 INFO  rootLogger:232 - Return: password
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:18 INFO  rootLogger:232 - Return: null
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:18 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:18 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:19 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:19 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:19 INFO  rootLogger:232 - Password: password entered
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:19 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 12:03:19 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 12:03:19 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 12:03:19 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:19 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:21 INFO  rootLogger:232 - Login button clicked
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-06-04 12:03:21 INFO  rootLogger:232 - parentWindow: CDwindow-C78F429ED723C582AC9C7EE080371D17
+2018-06-04 12:03:21 INFO  rootLogger:232 - windowHandle: CDwindow-C78F429ED723C582AC9C7EE080371D17
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 12:03:21 INFO  rootLogger:232 - get driver object
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 12:03:21 INFO  rootLogger:232 - get driver object
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-06-04 12:03:21 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 12:03:21 INFO  rootLogger:232 - PaneName: Admin
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:21 INFO  rootLogger:232 - Exception: null
+2018-06-04 12:03:21 INFO  rootLogger:232 - Pane xpath: null
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 12:03:21 INFO  rootLogger:232 - get driver object
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:21 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:21 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:21 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 12:03:22 INFO  rootLogger:232 - get driver object
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: Page; Method: selectDropDownInPane
+2018-06-04 12:03:22 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 12:03:22 INFO  rootLogger:232 - PaneName: Admin
+2018-06-04 12:03:22 INFO  rootLogger:232 - Dropdown Name: SelectYear
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:22 INFO  rootLogger:232 - Return: null
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:22 INFO  rootLogger:232 - Return: select_year
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:22 INFO  rootLogger:232 - Return: select_year
+2018-06-04 12:03:22 INFO  rootLogger:232 - id present
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: Page; Method: selectDropDownOption
+2018-06-04 12:03:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:22 INFO  rootLogger:232 - frame: select_year;id
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 12:03:31 INFO  rootLogger:232 - propField: select_year;id
+2018-06-04 12:03:31 INFO  rootLogger:232 - switchType: id
+2018-06-04 12:03:31 INFO  rootLogger:232 - switchValue: select_year
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:31 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:31 INFO  rootLogger:232 - Drop down element not null
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: Page; Method: selectDropDownOption
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: Page; Method: selectDropDownInPane
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 12:03:31 INFO  rootLogger:232 - get driver object
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: Page; Method: selectDropDownInPane
+2018-06-04 12:03:31 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 12:03:31 INFO  rootLogger:232 - PaneName: Admin
+2018-06-04 12:03:31 INFO  rootLogger:232 - Dropdown Name: SelectMonth
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:31 INFO  rootLogger:232 - Return: null
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:31 INFO  rootLogger:232 - Return: select_month
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 12:03:31 INFO  rootLogger:232 - Return: select_month
+2018-06-04 12:03:31 INFO  rootLogger:232 - id present
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: Page; Method: selectDropDownOption
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:31 INFO  rootLogger:232 - frame: select_month;id
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 12:03:31 INFO  rootLogger:232 - propField: select_month;id
+2018-06-04 12:03:31 INFO  rootLogger:232 - switchType: id
+2018-06-04 12:03:31 INFO  rootLogger:232 - switchValue: select_month
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 12:03:31 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 12:03:31 INFO  rootLogger:232 - frame: 
+2018-06-04 12:03:31 INFO  rootLogger:232 - Drop down element not null
+2018-06-04 12:03:32 INFO  rootLogger:232 - Class: Page; Method: selectDropDownOption
+2018-06-04 12:03:32 INFO  rootLogger:232 - Class: Page; Method: selectDropDownInPane
+2018-06-04 12:03:32 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: selectFromDropdown : Complete
+2018-06-04 12:03:32 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-06-04 12:03:32 INFO  rootLogger:232 - Scenario: Verify Payment Status on Dashboard complete.

@@ -1,0 +1,91 @@
+2018-06-04 15:00:42 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-06-04 15:00:42 INFO  rootLogger:232 - Scenario: Verify Reports starting.
+2018-06-04 15:00:42 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-06-04 15:00:43 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-06-04 15:00:43 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-06-04 15:00:43 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-06-04 15:00:43 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-06-04 15:00:43 INFO  rootLogger:232 - Initializing JSON files
+2018-06-04 15:00:43 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-06-04 15:00:46 INFO  rootLogger:232 - ChromeDriver initialized
+2018-06-04 15:00:47 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 15:00:47 INFO  rootLogger:232 - get driver object
+2018-06-04 15:00:47 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:00:56 INFO  rootLogger:232 - Return: username
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:00:56 INFO  rootLogger:232 - Return: password
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:00:56 INFO  rootLogger:232 - Return: null
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 15:00:56 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:00:56 INFO  rootLogger:232 - frame: 
+2018-06-04 15:00:57 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:00:57 INFO  rootLogger:232 - frame: 
+2018-06-04 15:00:57 INFO  rootLogger:232 - Password: password entered
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:00:57 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 15:00:57 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 15:00:57 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 15:00:57 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 15:00:57 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:00:57 INFO  rootLogger:232 - frame: 
+2018-06-04 15:00:59 INFO  rootLogger:232 - Login button clicked
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-06-04 15:00:59 INFO  rootLogger:232 - parentWindow: CDwindow-099DED7A98DC2474F340F99D527CA636
+2018-06-04 15:00:59 INFO  rootLogger:232 - windowHandle: CDwindow-099DED7A98DC2474F340F99D527CA636
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-04 15:00:59 INFO  rootLogger:232 - get driver object
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 15:00:59 INFO  rootLogger:232 - get driver object
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-06-04 15:00:59 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 15:00:59 INFO  rootLogger:232 - PaneName: Admin
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:00:59 INFO  rootLogger:232 - Exception: null
+2018-06-04 15:00:59 INFO  rootLogger:232 - Pane xpath: null
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 15:00:59 INFO  rootLogger:232 - get driver object
+2018-06-04 15:00:59 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:00:59 INFO  rootLogger:232 - frame: 
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:01:00 INFO  rootLogger:232 - frame: 
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-06-04 15:01:00 INFO  rootLogger:232 - Pagename: Admin
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-04 15:01:00 INFO  rootLogger:232 - get driver object
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-06-04 15:01:00 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-04 15:01:00 INFO  rootLogger:232 - ImageName: Reports
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:01:00 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']]
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-04 15:01:00 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']]
+2018-06-04 15:01:00 INFO  rootLogger:232 - xpath present
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:01:00 INFO  rootLogger:232 - frame: //div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']];xpath
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-04 15:01:00 INFO  rootLogger:232 - propField: //div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']];xpath
+2018-06-04 15:01:00 INFO  rootLogger:232 - switchType: xpath
+2018-06-04 15:01:00 INFO  rootLogger:232 - switchValue: //div[contains (@class,  'sideMenuItem') and child::p[text()='Reports']]
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-04 15:01:00 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-04 15:01:00 INFO  rootLogger:232 - frame: 
+2018-06-04 15:01:01 INFO  rootLogger:232 - Element: 'Reports' exist and clicked. Returning true.
+2018-06-04 15:01:01 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Start
+2018-06-04 15:01:16 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: waitForSpecifiedTime : Complete
+2018-06-04 15:01:16 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-06-04 15:01:16 INFO  rootLogger:232 - Scenario: Verify Reports complete.

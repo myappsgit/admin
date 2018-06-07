@@ -1,0 +1,481 @@
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value to read: APP
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value to read: SECTION
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value to read: TAG_NAME
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - SectionName: HUDDIL
+2018-04-30 18:06:42 INFO  rootLogger:232 - KeyName: url
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value: null
+2018-04-30 18:06:42 INFO  rootLogger:232 - Returning: http://198.1.85.118/
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - SectionName: HUDDIL
+2018-04-30 18:06:42 INFO  rootLogger:232 - KeyName: username
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value: null
+2018-04-30 18:06:42 INFO  rootLogger:232 - Returning: reddyswethu26@gmail.com
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-04-30 18:06:42 INFO  rootLogger:232 - SectionName: HUDDIL
+2018-04-30 18:06:42 INFO  rootLogger:232 - KeyName: password
+2018-04-30 18:06:42 INFO  rootLogger:232 - Value: null
+2018-04-30 18:06:42 INFO  rootLogger:232 - Returning: password
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:06:42 INFO  rootLogger:232 - Scenario: Verify Payment Status on Dashboard starting.
+2018-04-30 18:06:42 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:06:42 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-04-30 18:06:42 INFO  rootLogger:232 - Initializing JSON files
+2018-04-30 18:06:42 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:06:49 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:06:53 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:06:53 INFO  rootLogger:232 - get driver object
+2018-04-30 18:06:53 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:23 INFO  rootLogger:232 - Return: username
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:23 INFO  rootLogger:232 - Return: password
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:23 INFO  rootLogger:232 - Return: null
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:23 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:23 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:07:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:23 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:24 INFO  rootLogger:232 - Password: password entered
+2018-04-30 18:07:24 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:24 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:07:24 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:07:24 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:07:24 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 18:07:24 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:07:24 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:07:24 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:24 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:27 INFO  rootLogger:232 - Login button clicked
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 18:07:27 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 18:07:27 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:07:27 INFO  rootLogger:232 - get driver object
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:07:27 INFO  rootLogger:232 - get driver object
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-04-30 18:07:27 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:07:27 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:27 INFO  rootLogger:232 - Exception: null
+2018-04-30 18:07:27 INFO  rootLogger:232 - Pane xpath: null
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:07:27 INFO  rootLogger:232 - get driver object
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:27 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:27 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: selectFromDropdown : Start
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:07:27 INFO  rootLogger:232 - get driver object
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Page; Method: selectDropDownInPane
+2018-04-30 18:07:27 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:07:27 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 18:07:27 INFO  rootLogger:232 - Dropdown Name: SelectYear
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:27 INFO  rootLogger:232 - Return: null
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:27 INFO  rootLogger:232 - Return: select_year
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:07:27 INFO  rootLogger:232 - Return: select_year
+2018-04-30 18:07:27 INFO  rootLogger:232 - id present
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: Page; Method: selectDropDownOption
+2018-04-30 18:07:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:27 INFO  rootLogger:232 - frame: select_year;id
+2018-04-30 18:07:37 INFO  rootLogger:232 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: select_year (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-30 18:07:37 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:07:37 INFO  rootLogger:232 - propField: select_year;id
+2018-04-30 18:07:37 INFO  rootLogger:232 - switchType: id
+2018-04-30 18:07:37 INFO  rootLogger:232 - switchValue: select_year
+2018-04-30 18:07:37 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:07:37 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:07:37 INFO  rootLogger:232 - frame: 
+2018-04-30 18:07:38 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.id: select_year (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-30 18:07:38 INFO  rootLogger:232 - Element not found. Returning null. Exception: Unable to locate element: #select_year
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.ovqHh5YVJwmz, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=7656, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 42a0c98e-4883-46e1-8d65-ee23bc562a6a
+*** Element info: {Using=id, value=select_year}
+2018-04-30 18:07:38 INFO  rootLogger:232 - Drop down object is not found
+2018-04-30 18:07:38 INFO  rootLogger:232 - Item 2018 not selected from dropDown SelectYear due to Exception: Cannot locate dropdown with locator: id= select_year
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+2018-04-30 18:07:38 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:07:38 INFO  rootLogger:232 - Scenario: Verify Payment Status on Dashboard - Failed
+2018-04-30 18:07:38 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:07:39 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:07:39 INFO  rootLogger:232 - Tried to kill process with PID: 7656
+2018-04-30 18:07:39 INFO  rootLogger:232 - Scenario: Verify Payment Status on Dashboard complete.
+2018-04-30 18:07:39 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:07:39 INFO  rootLogger:232 - Scenario: Verify Payment Details using search in Payments starting.
+2018-04-30 18:07:39 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:07:40 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:07:40 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:07:40 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:07:40 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:07:46 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:07:49 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:07:49 INFO  rootLogger:232 - get driver object
+2018-04-30 18:07:49 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:07:53 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:07:53 INFO  rootLogger:232 - Scenario: Verify Payment Details using search in Payments - Failed
+2018-04-30 18:07:53 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:07:54 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:07:54 INFO  rootLogger:232 - Scenario: Verify Search & Block Users in Users starting.
+2018-04-30 18:07:54 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:07:54 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:07:54 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:07:54 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:07:54 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowser
+2018-04-30 18:07:54 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:07:54 INFO  rootLogger:232 - Tried to kill process with PID: 224
+2018-04-30 18:07:54 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:08:00 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:08:01 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:08:01 INFO  rootLogger:232 - Scenario: Verify Search & Block Users in Users complete.
+2018-04-30 18:08:01 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:08:01 INFO  rootLogger:232 - Scenario: Verify Search & Activate Users in Users starting.
+2018-04-30 18:08:01 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:08:01 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:08:01 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:08:01 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:08:01 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:08:06 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:08:10 INFO  rootLogger:232 - No child process firefox.exe found for parent process 5312.
+2018-04-30 18:08:10 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:08:10 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:10 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:08:11 INFO  rootLogger:232 - Scenario: Verify Search & Activate Users in Users - Failed
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:08:11 INFO  rootLogger:232 - Scenario: Verify Adding "New Adviser" starting.
+2018-04-30 18:08:11 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:08:11 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowser
+2018-04-30 18:08:11 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:08:11 INFO  rootLogger:232 - Tried to kill process with PID: 
+2018-04-30 18:08:11 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:08:16 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:08:19 INFO  rootLogger:232 - No child process firefox.exe found for parent process 5312.
+2018-04-30 18:08:19 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:08:19 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:19 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:39 INFO  rootLogger:232 - Return: username
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:39 INFO  rootLogger:232 - Return: password
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:39 INFO  rootLogger:232 - Return: null
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:39 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:39 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:08:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:39 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:40 INFO  rootLogger:232 - Password: password entered
+2018-04-30 18:08:40 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:40 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:08:40 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:08:40 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:08:40 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 18:08:40 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:08:40 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:08:40 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:40 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:42 INFO  rootLogger:232 - Login button clicked
+2018-04-30 18:08:42 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 18:08:42 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 18:08:42 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:08:43 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:08:43 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-04-30 18:08:43 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:08:43 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:43 INFO  rootLogger:232 - Exception: null
+2018-04-30 18:08:43 INFO  rootLogger:232 - Pane xpath: null
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:08:43 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:43 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:43 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 18:08:43 INFO  rootLogger:232 - Pagename: Admin
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:08:43 INFO  rootLogger:232 - get driver object
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-04-30 18:08:43 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:08:43 INFO  rootLogger:232 - ImageName: Users
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:43 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:08:43 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]
+2018-04-30 18:08:43 INFO  rootLogger:232 - xpath present
+2018-04-30 18:08:43 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:43 INFO  rootLogger:232 - frame: //div[contains (@class,  'sideMenuItem') and child::p[text()='Users']];xpath
+2018-04-30 18:08:52 INFO  rootLogger:232 - Element not found after timeout of 10 seconds. Exception: Failed to decode response from marionette
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.9cPD445WgDjJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9848, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 9e0df3c4-47bb-454e-86b9-ca84e4fb384f
+*** Element info: {Using=xpath, value=//div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]}
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:08:52 INFO  rootLogger:232 - propField: //div[contains (@class,  'sideMenuItem') and child::p[text()='Users']];xpath
+2018-04-30 18:08:52 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 18:08:52 INFO  rootLogger:232 - switchValue: //div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:08:52 INFO  rootLogger:232 - frame: 
+2018-04-30 18:08:52 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Tried to run command without establishing a connection
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.9cPD445WgDjJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9848, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 9e0df3c4-47bb-454e-86b9-ca84e4fb384f
+*** Element info: {Using=xpath, value=//div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]}
+2018-04-30 18:08:52 INFO  rootLogger:232 - Element not found. Returning null. Exception: Tried to run command without establishing a connection
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.9cPD445WgDjJ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9848, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 9e0df3c4-47bb-454e-86b9-ca84e4fb384f
+*** Element info: {Using=xpath, value=//div[contains (@class,  'sideMenuItem') and child::p[text()='Users']]}
+2018-04-30 18:08:52 INFO  rootLogger:232 - Element: 'Users' does not exist. Returning false.
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:08:52 INFO  rootLogger:232 - Scenario: Verify Adding "New Adviser" - Failed
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:08:52 INFO  rootLogger:232 - Scenario: Verify Search Facility starting.
+2018-04-30 18:08:52 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:08:52 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowser
+2018-04-30 18:08:52 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:08:52 INFO  rootLogger:232 - Tried to kill process with PID: 
+2018-04-30 18:08:52 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:08:57 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:08:58 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:08:58 INFO  rootLogger:232 - Scenario: Verify Search Facility complete.
+2018-04-30 18:08:58 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:08:58 INFO  rootLogger:232 - Scenario: Verify Search & Block Facility starting.
+2018-04-30 18:08:58 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:08:58 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:08:58 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:08:58 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:08:58 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:03 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:04 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:04 INFO  rootLogger:232 - Scenario: Verify Search & Block Facility complete.
+2018-04-30 18:09:04 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:04 INFO  rootLogger:232 - Scenario: Verify Search & Activate Facility starting.
+2018-04-30 18:09:04 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:04 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:04 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:04 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:04 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:09 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:11 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:11 INFO  rootLogger:232 - Scenario: Verify Search & Activate Facility complete.
+2018-04-30 18:09:11 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:11 INFO  rootLogger:232 - Scenario: Verify Adding Policy starting.
+2018-04-30 18:09:11 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:11 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:11 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:11 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:11 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:16 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:18 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:18 INFO  rootLogger:232 - Scenario: Verify Adding Policy complete.
+2018-04-30 18:09:18 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:18 INFO  rootLogger:232 - Scenario: Verify Adding Amenity starting.
+2018-04-30 18:09:18 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:18 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:18 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:18 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:18 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:24 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:24 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:24 INFO  rootLogger:232 - Scenario: Verify Adding Amenity complete.
+2018-04-30 18:09:24 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:24 INFO  rootLogger:232 - Scenario: Verify Adding City starting.
+2018-04-30 18:09:24 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:24 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:24 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:24 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:24 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:30 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:34 INFO  rootLogger:232 - No child process firefox.exe found for parent process 5312.
+2018-04-30 18:09:34 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:09:34 INFO  rootLogger:232 - get driver object
+2018-04-30 18:09:34 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:37 INFO  rootLogger:232 - Scenario: Verify Adding City - Failed
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:37 INFO  rootLogger:232 - Scenario: Verify Logout starting.
+2018-04-30 18:09:37 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:37 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowser
+2018-04-30 18:09:37 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:09:37 INFO  rootLogger:232 - Tried to kill process with PID: 
+2018-04-30 18:09:37 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:42 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:43 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:09:43 INFO  rootLogger:232 - Scenario: Verify Logout complete.
+2018-04-30 18:09:43 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 18:09:43 INFO  rootLogger:232 - Scenario: Verify Change password starting.
+2018-04-30 18:09:43 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 18:09:43 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 18:09:43 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 18:09:43 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 18:09:43 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 18:09:49 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 18:09:53 INFO  rootLogger:232 - No child process firefox.exe found for parent process 5312.
+2018-04-30 18:09:53 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:09:53 INFO  rootLogger:232 - get driver object
+2018-04-30 18:09:53 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:16 INFO  rootLogger:232 - Return: username
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:16 INFO  rootLogger:232 - Return: password
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:16 INFO  rootLogger:232 - Return: null
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:10:16 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:16 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:17 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-04-30 18:10:17 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:10:17 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:17 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:18 INFO  rootLogger:232 - Password: password entered
+2018-04-30 18:10:18 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:18 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:10:18 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:10:18 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:10:18 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 18:10:18 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 18:10:18 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:10:18 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:18 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:20 INFO  rootLogger:232 - Login button clicked
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 18:10:20 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 18:10:20 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 18:10:20 INFO  rootLogger:232 - get driver object
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:10:20 INFO  rootLogger:232 - get driver object
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-04-30 18:10:20 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:10:20 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:20 INFO  rootLogger:232 - Exception: null
+2018-04-30 18:10:20 INFO  rootLogger:232 - Pane xpath: null
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:10:20 INFO  rootLogger:232 - get driver object
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:20 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:20 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 18:10:20 INFO  rootLogger:232 - Pagename: Admin
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 18:10:20 INFO  rootLogger:232 - get driver object
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-04-30 18:10:20 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 18:10:20 INFO  rootLogger:232 - ImageName: UserProfile
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:20 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 18:10:20 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-04-30 18:10:20 INFO  rootLogger:232 - xpath present
+2018-04-30 18:10:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:20 INFO  rootLogger:232 - frame: //i[@class='fa fa-user-circle'];xpath
+2018-04-30 18:10:23 INFO  rootLogger:232 - Element not found after timeout of 10 seconds. Exception: Failed to decode response from marionette
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.wfQmTk5AW5rO, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9836, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 8bdf790c-71c4-41c5-bea6-8d3cdc06e78e
+*** Element info: {Using=xpath, value=//i[@class='fa fa-user-circle']}
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 18:10:23 INFO  rootLogger:232 - propField: //i[@class='fa fa-user-circle'];xpath
+2018-04-30 18:10:23 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 18:10:23 INFO  rootLogger:232 - switchValue: //i[@class='fa fa-user-circle']
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 18:10:23 INFO  rootLogger:232 - frame: 
+2018-04-30 18:10:23 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Tried to run command without establishing a connection
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.wfQmTk5AW5rO, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9836, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 8bdf790c-71c4-41c5-bea6-8d3cdc06e78e
+*** Element info: {Using=xpath, value=//i[@class='fa fa-user-circle']}
+2018-04-30 18:10:23 INFO  rootLogger:232 - Element not found. Returning null. Exception: Tried to run command without establishing a connection
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.wfQmTk5AW5rO, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=9836, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 8bdf790c-71c4-41c5-bea6-8d3cdc06e78e
+*** Element info: {Using=xpath, value=//i[@class='fa fa-user-circle']}
+2018-04-30 18:10:23 INFO  rootLogger:232 - Element: 'UserProfile' does not exist. Returning false.
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 18:10:23 INFO  rootLogger:232 - Scenario: Verify Change password - Failed
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 18:10:23 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowser
+2018-04-30 18:10:23 INFO  rootLogger:232 - Browser closed
+2018-04-30 18:10:23 INFO  rootLogger:232 - Tried to kill process with PID: 

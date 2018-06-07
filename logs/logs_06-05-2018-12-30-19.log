@@ -1,0 +1,19 @@
+2018-06-05 12:30:19 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-06-05 12:30:19 INFO  rootLogger:232 - Scenario: Verify Adding "New Adviser" starting.
+2018-06-05 12:30:19 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-06-05 12:30:20 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-06-05 12:30:20 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-06-05 12:30:20 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-06-05 12:30:20 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-06-05 12:30:20 INFO  rootLogger:232 - Initializing JSON files
+2018-06-05 12:30:20 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-06-05 12:30:23 INFO  rootLogger:232 - ChromeDriver initialized
+2018-06-05 12:30:24 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-05 12:30:24 INFO  rootLogger:232 - get driver object
+2018-06-05 12:30:24 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-06-05 12:33:45 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-06-05 12:33:45 INFO  rootLogger:232 - Scenario: Verify Adding "New Adviser" - Failed
+2018-06-05 12:33:45 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-06-05 12:33:46 INFO  rootLogger:232 - Browser closed
+2018-06-05 12:33:46 INFO  rootLogger:232 - Tried to kill process with PID: 6112
+2018-06-05 12:33:46 INFO  rootLogger:232 - Scenario: Verify Adding "New Adviser" complete.

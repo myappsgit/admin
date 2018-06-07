@@ -1,0 +1,11 @@
+2018-04-02 12:19:06 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-04-02 12:19:06 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options starting.
+2018-04-02 12:19:06 INFO  rootLogger:230 - Scenario Tag Name: @Sanity2
+2018-04-02 12:19:06 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-02 12:19:06 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-04-02 12:19:06 INFO  rootLogger:230 - userName: advisor@huddil.com
+2018-04-02 12:19:06 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-04-02 12:19:06 INFO  rootLogger:230 - Initializing JSON files
+2018-04-02 12:19:06 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-04-02 12:19:07 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-02 12:19:07 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options complete.

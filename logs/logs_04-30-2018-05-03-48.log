@@ -1,0 +1,516 @@
+2018-04-30 17:03:48 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-04-30 17:03:48 INFO  rootLogger:232 - Scenario: Verify Change password starting.
+2018-04-30 17:03:48 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-04-30 17:03:49 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-30 17:03:49 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-04-30 17:03:49 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-04-30 17:03:49 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-04-30 17:03:49 INFO  rootLogger:232 - Initializing JSON files
+2018-04-30 17:03:49 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-04-30 17:03:55 INFO  rootLogger:232 - Firefox driver initialized
+2018-04-30 17:03:58 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 17:03:58 INFO  rootLogger:232 - get driver object
+2018-04-30 17:03:58 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:19 INFO  rootLogger:232 - Return: username
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:19 INFO  rootLogger:232 - Return: password
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:19 INFO  rootLogger:232 - Return: null
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:19 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:19 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:19 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:20 INFO  rootLogger:232 - Password: password entered
+2018-04-30 17:04:20 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:20 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 17:04:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:20 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 17:04:20 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:20 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-30 17:04:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:20 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:20 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:22 INFO  rootLogger:232 - Login button clicked
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-30 17:04:22 INFO  rootLogger:232 - parentWindow: 4294967297
+2018-04-30 17:04:22 INFO  rootLogger:232 - windowHandle: 4294967297
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-04-30 17:04:22 INFO  rootLogger:232 - get driver object
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 17:04:22 INFO  rootLogger:232 - get driver object
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-04-30 17:04:22 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 17:04:22 INFO  rootLogger:232 - PaneName: Admin
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:22 INFO  rootLogger:232 - Exception: null
+2018-04-30 17:04:22 INFO  rootLogger:232 - Pane xpath: null
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 17:04:22 INFO  rootLogger:232 - get driver object
+2018-04-30 17:04:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:22 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:25 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 17:04:25 INFO  rootLogger:232 - Pagename: Admin
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 17:04:25 INFO  rootLogger:232 - get driver object
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-04-30 17:04:25 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 17:04:25 INFO  rootLogger:232 - ImageName: UserProfile
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:25 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:25 INFO  rootLogger:232 - Return: //i[@class='fa fa-user-circle']
+2018-04-30 17:04:25 INFO  rootLogger:232 - xpath present
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:25 INFO  rootLogger:232 - frame: //i[@class='fa fa-user-circle'];xpath
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:25 INFO  rootLogger:232 - propField: //i[@class='fa fa-user-circle'];xpath
+2018-04-30 17:04:25 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:25 INFO  rootLogger:232 - switchValue: //i[@class='fa fa-user-circle']
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:25 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:26 INFO  rootLogger:232 - Element: 'UserProfile' exist and clicked. Returning true.
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Start
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: Page; Method: textExists
+2018-04-30 17:04:26 INFO  rootLogger:232 - xPath: //*[contains(normalize-space(.), 'Edit Profile')]
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:26 INFO  rootLogger:232 - frame: //*[contains(normalize-space(.), 'Edit Profile')];xpath
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:26 INFO  rootLogger:232 - propField: //*[contains(normalize-space(.), 'Edit Profile')];xpath
+2018-04-30 17:04:26 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:26 INFO  rootLogger:232 - switchValue: //*[contains(normalize-space(.), 'Edit Profile')]
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:26 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:26 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:27 INFO  rootLogger:232 - This is my text: edit profile
+2018-04-30 17:04:27 INFO  rootLogger:232 - This is the application text: admin myapps
+edit profile
+change password
+logout
+dashboard
+payment
+payments
+users
+facilities
+terms
+dashboard
+amenities
+locations
+dashboard
+payment status
+select year
+2017
+2018
+select month
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+payment
+online payment
+30
+offline payment
+4025
+cancellation charge
+1
+refund
+online refund
+38
+offline cancellation
+28370
+charges
+huddil commission
+401.6
+transaction charges
+1.38
+settlement
+(sp)
+-371.98
+user status
+done
+active
+43
+person
+consumer
+21
+service provider
+14
+account_box
+advisor
+8
+clear
+disabled
+4
+person
+consumer
+1
+service provider
+1
+account_box
+advisor
+2
+report_problem
+activation pending
+18
+person
+consumer
+6
+service provider
+12
+account_box
+advisor
+0
+facility status
+active
+done
+approved facilities
+110
+pending for approval
+5
+clear
+denied facilities
+25
+certified
+huddil verified
+86
+pending verification
+5
+rejected verification
+0
+not active
+done
+blocked
+(admin/advisor)
+81
+clear
+deactivated
+(service provider)
+4
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1280 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+2018-04-30 17:04:27 INFO  rootLogger:232 - Text: 'edit profile' exist. Returning true.
+2018-04-30 17:04:27 INFO  rootLogger:232 - Class: Page; Method: textExists
+2018-04-30 17:04:27 INFO  rootLogger:232 - xPath: //*[contains(normalize-space(.), 'Change Password')]
+2018-04-30 17:04:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:27 INFO  rootLogger:232 - frame: //*[contains(normalize-space(.), 'Change Password')];xpath
+2018-04-30 17:04:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:27 INFO  rootLogger:232 - propField: //*[contains(normalize-space(.), 'Change Password')];xpath
+2018-04-30 17:04:27 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:27 INFO  rootLogger:232 - switchValue: //*[contains(normalize-space(.), 'Change Password')]
+2018-04-30 17:04:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:27 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:27 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:28 INFO  rootLogger:232 - This is my text: change password
+2018-04-30 17:04:28 INFO  rootLogger:232 - This is the application text: admin myapps
+edit profile
+change password
+logout
+dashboard
+payment
+payments
+users
+facilities
+terms
+dashboard
+amenities
+locations
+dashboard
+payment status
+select year
+2017
+2018
+select month
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+payment
+online payment
+30
+offline payment
+4025
+cancellation charge
+1
+refund
+online refund
+38
+offline cancellation
+28370
+charges
+huddil commission
+401.6
+transaction charges
+1.38
+settlement
+(sp)
+-371.98
+user status
+done
+active
+43
+person
+consumer
+21
+service provider
+14
+account_box
+advisor
+8
+clear
+disabled
+4
+person
+consumer
+1
+service provider
+1
+account_box
+advisor
+2
+report_problem
+activation pending
+18
+person
+consumer
+6
+service provider
+12
+account_box
+advisor
+0
+facility status
+active
+done
+approved facilities
+110
+pending for approval
+5
+clear
+denied facilities
+25
+certified
+huddil verified
+86
+pending verification
+5
+rejected verification
+0
+not active
+done
+blocked
+(admin/advisor)
+81
+clear
+deactivated
+(service provider)
+4
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1280 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+2018-04-30 17:04:28 INFO  rootLogger:232 - Text: 'change password' exist. Returning true.
+2018-04-30 17:04:28 INFO  rootLogger:232 - Class: Page; Method: textExists
+2018-04-30 17:04:28 INFO  rootLogger:232 - xPath: //*[contains(normalize-space(.), 'Logout')]
+2018-04-30 17:04:28 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:28 INFO  rootLogger:232 - frame: //*[contains(normalize-space(.), 'Logout')];xpath
+2018-04-30 17:04:28 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:28 INFO  rootLogger:232 - propField: //*[contains(normalize-space(.), 'Logout')];xpath
+2018-04-30 17:04:28 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:28 INFO  rootLogger:232 - switchValue: //*[contains(normalize-space(.), 'Logout')]
+2018-04-30 17:04:28 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:28 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:28 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:29 INFO  rootLogger:232 - This is my text: logout
+2018-04-30 17:04:29 INFO  rootLogger:232 - This is the application text: admin myapps
+edit profile
+change password
+logout
+dashboard
+payment
+payments
+users
+facilities
+terms
+dashboard
+amenities
+locations
+dashboard
+payment status
+select year
+2017
+2018
+select month
+january
+february
+march
+april
+may
+june
+july
+august
+september
+october
+november
+december
+payment
+online payment
+30
+offline payment
+4025
+cancellation charge
+1
+refund
+online refund
+38
+offline cancellation
+28370
+charges
+huddil commission
+401.6
+transaction charges
+1.38
+settlement
+(sp)
+-371.98
+user status
+done
+active
+43
+person
+consumer
+21
+service provider
+14
+account_box
+advisor
+8
+clear
+disabled
+4
+person
+consumer
+1
+service provider
+1
+account_box
+advisor
+2
+report_problem
+activation pending
+18
+person
+consumer
+6
+service provider
+12
+account_box
+advisor
+0
+facility status
+active
+done
+approved facilities
+110
+pending for approval
+5
+clear
+denied facilities
+25
+certified
+huddil verified
+86
+pending verification
+5
+rejected verification
+0
+not active
+done
+blocked
+(admin/advisor)
+81
+clear
+deactivated
+(service provider)
+4
+usage policy
+privacy policy
+disclaimer
+© huddil.com. all rights reserved.
+site best viewed at 1280 x 768 resolution in google chrome 3 or above, mozilla 3.5 or above,i.e 11 or above
+2018-04-30 17:04:29 INFO  rootLogger:232 - Text: 'logout' exist. Returning true.
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Complete
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-04-30 17:04:29 INFO  rootLogger:232 - Pagename: Admin
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-04-30 17:04:29 INFO  rootLogger:232 - get driver object
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-04-30 17:04:29 INFO  rootLogger:232 - Current tab name: Admin
+2018-04-30 17:04:29 INFO  rootLogger:232 - ImageName: ChangePassword
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:29 INFO  rootLogger:232 - Return: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-30 17:04:29 INFO  rootLogger:232 - Return: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']
+2018-04-30 17:04:29 INFO  rootLogger:232 - xpath present
+2018-04-30 17:04:29 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:29 INFO  rootLogger:232 - frame: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password'];xpath
+2018-04-30 17:04:39 INFO  rootLogger:232 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-30 17:04:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-04-30 17:04:39 INFO  rootLogger:232 - propField: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password'];xpath
+2018-04-30 17:04:39 INFO  rootLogger:232 - switchType: xpath
+2018-04-30 17:04:39 INFO  rootLogger:232 - switchValue: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']
+2018-04-30 17:04:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-04-30 17:04:39 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-30 17:04:39 INFO  rootLogger:232 - frame: 
+2018-04-30 17:04:40 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password'] (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-30 17:04:40 INFO  rootLogger:232 - Element not found. Returning null. Exception: Given xpath expression "//div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.3.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.GaV9dOwmDtzk, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=1372, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: e631fdad-09a5-476d-a15d-293eba44914e
+*** Element info: {Using=xpath, value=//div[@class='userMenuSubFieldsContainer'  and child::p[text()='Change Password']}
+2018-04-30 17:04:40 INFO  rootLogger:232 - Element: 'ChangePassword' does not exist. Returning false.
+2018-04-30 17:04:40 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-30 17:04:40 INFO  rootLogger:232 - Scenario: Verify Change password - Failed
+2018-04-30 17:04:40 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-04-30 17:04:41 INFO  rootLogger:232 - Browser closed
+2018-04-30 17:04:41 INFO  rootLogger:232 - Tried to kill process with PID: 1372
+2018-04-30 17:04:41 INFO  rootLogger:232 - Scenario: Verify Change password complete.

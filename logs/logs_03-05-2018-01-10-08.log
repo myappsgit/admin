@@ -1,0 +1,41 @@
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value to read: APP
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value to read: SECTION
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromTextFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value to read: TAG_NAME
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:10:08 INFO  rootLogger:230 - KeyName: url
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value: http://198.1.85.118/
+2018-03-05 13:10:08 INFO  rootLogger:230 - Returning: http://198.1.85.118/
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:10:08 INFO  rootLogger:230 - KeyName: username
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value: reddyswethu26@gmail.com
+2018-03-05 13:10:08 INFO  rootLogger:230 - Returning: reddyswethu26@gmail.com
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: UtilFunctions; Method: getValueFromIniFile
+2018-03-05 13:10:08 INFO  rootLogger:230 - SectionName: Huddil
+2018-03-05 13:10:08 INFO  rootLogger:230 - KeyName: password
+2018-03-05 13:10:08 INFO  rootLogger:230 - Value: password
+2018-03-05 13:10:08 INFO  rootLogger:230 - Returning: password
+2018-03-05 13:10:08 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-03-05 13:10:08 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options starting.
+2018-03-05 13:10:08 INFO  rootLogger:230 - Scenario Tag Name: @Sanity2
+2018-03-05 13:10:09 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-03-05 13:10:09 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-03-05 13:10:09 INFO  rootLogger:230 - userName: advisor@huddil.com
+2018-03-05 13:10:09 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-03-05 13:10:09 INFO  rootLogger:230 - Initializing JSON files
+2018-03-05 13:10:09 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-03-05 13:10:15 INFO  rootLogger:230 - Firefox driver initialized
+2018-03-05 13:10:17 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-03-05 13:10:17 INFO  rootLogger:230 - get driver object
+2018-03-05 13:10:17 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-03-05 13:10:56 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-03-05 13:10:56 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options - Failed
+2018-03-05 13:10:56 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-03-05 13:10:57 INFO  rootLogger:230 - Browser closed
+2018-03-05 13:10:57 INFO  rootLogger:230 - Tried to kill process with PID: 6028
+2018-03-05 13:10:57 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options complete.
+2018-03-05 13:10:57 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowser

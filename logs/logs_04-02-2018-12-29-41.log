@@ -1,0 +1,92 @@
+2018-04-02 12:29:41 INFO  rootLogger:230 - Class: Hooks; Method: setUp
+2018-04-02 12:29:41 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options starting.
+2018-04-02 12:29:41 INFO  rootLogger:230 - Scenario Tag Name: @Sanity2
+2018-04-02 12:29:42 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-04-02 12:29:42 INFO  rootLogger:230 - Class: Hooks; Method: openBrowser
+2018-04-02 12:29:42 INFO  rootLogger:230 - userName: advisor@huddil.com
+2018-04-02 12:29:42 INFO  rootLogger:230 - Class: SetUpFile; Method: constructor
+2018-04-02 12:29:42 INFO  rootLogger:230 - Initializing JSON files
+2018-04-02 12:29:42 INFO  rootLogger:230 - Class: SetUpFile; Method: setUpBrowser
+2018-04-02 12:30:24 INFO  rootLogger:230 - Firefox driver initialized
+2018-04-02 12:30:27 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-04-02 12:30:27 INFO  rootLogger:230 - get driver object
+2018-04-02 12:30:27 INFO  rootLogger:230 - Class: SetUpFile; Method: openURL
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: SetUpFile; Method: logInApplication
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-02 12:31:35 INFO  rootLogger:230 - Return: username
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-02 12:31:35 INFO  rootLogger:230 - Return: password
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-02 12:31:35 INFO  rootLogger:230 - Return: null
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-02 12:31:35 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:35 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:36 INFO  rootLogger:230 - UserName: advisor@huddil.com entered
+2018-04-02 12:31:36 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-02 12:31:36 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:36 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:39 INFO  rootLogger:230 - Password: password entered
+2018-04-02 12:31:39 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-02 12:31:39 INFO  rootLogger:230 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-02 12:31:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-04-02 12:31:39 INFO  rootLogger:230 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-02 12:31:39 INFO  rootLogger:230 - switchType: xpath
+2018-04-02 12:31:39 INFO  rootLogger:230 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-04-02 12:31:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-02 12:31:39 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:39 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:42 INFO  rootLogger:230 - Login button clicked
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-04-02 12:31:42 INFO  rootLogger:230 - parentWindow: 4294967297
+2018-04-02 12:31:42 INFO  rootLogger:230 - windowHandle: 4294967297
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: Hooks; Method: setDriver
+2018-04-02 12:31:42 INFO  rootLogger:230 - get driver object
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-02 12:31:42 INFO  rootLogger:230 - get driver object
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: Page; Method: findPage
+2018-04-02 12:31:42 INFO  rootLogger:230 - Current tab name: Advisor
+2018-04-02 12:31:42 INFO  rootLogger:230 - PaneName: Advisor
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-04-02 12:31:42 INFO  rootLogger:230 - Exception: null
+2018-04-02 12:31:42 INFO  rootLogger:230 - Pane xpath: null
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: Hooks; Method: getDriver
+2018-04-02 12:31:42 INFO  rootLogger:230 - get driver object
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:42 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:42 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: GlobalStepdefs; Method: checkForMultipleTextEntries : Start
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: Page; Method: textExists
+2018-04-02 12:31:42 INFO  rootLogger:230 - xPath: //*[contains(normalize-space(.), 'Dashboard')]
+2018-04-02 12:31:42 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:42 INFO  rootLogger:230 - frame: //*[contains(normalize-space(.), 'Dashboard')];xpath
+2018-04-02 12:31:53 INFO  rootLogger:230 - Element not found after timeout of 10 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(normalize-space(.), 'Dashboard')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+2018-04-02 12:31:53 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: setByValues
+2018-04-02 12:31:53 INFO  rootLogger:230 - propField: //*[contains(normalize-space(.), 'Dashboard')];xpath
+2018-04-02 12:31:53 INFO  rootLogger:230 - switchType: xpath
+2018-04-02 12:31:53 INFO  rootLogger:230 - switchValue: //*[contains(normalize-space(.), 'Dashboard')]
+2018-04-02 12:31:53 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: findElement
+2018-04-02 12:31:53 INFO  rootLogger:230 - Class: SeleniumFunctions; Method: explicitWait
+2018-04-02 12:31:53 INFO  rootLogger:230 - frame: 
+2018-04-02 12:31:54 INFO  rootLogger:230 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(normalize-space(.), 'Dashboard')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-04-02 12:31:54 INFO  rootLogger:230 - Element not found. Returning null. Exception: Unable to locate element: //*[contains(normalize-space(.), 'Dashboard')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\user\AppData\Local\Temp\rust_mozprofile.RRR0pD5n9JPD, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=59.0.2, platformVersion=6.1, moz:processID=1968, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 770c26df-f914-44fe-af6b-7a3d4d7fd69e
+*** Element info: {Using=xpath, value=//*[contains(normalize-space(.), 'Dashboard')]}
+2018-04-02 12:31:54 INFO  rootLogger:230 - Text: 'Dashboard' does not exist. Returning false.
+2018-04-02 12:31:54 INFO  rootLogger:230 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-04-02 12:31:54 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options - Failed
+2018-04-02 12:31:54 INFO  rootLogger:230 - Class: Hooks; Method: takeScreenShot
+2018-04-02 12:31:59 INFO  rootLogger:230 - Browser closed
+2018-04-02 12:31:59 INFO  rootLogger:230 - Tried to kill process with PID: 1968
+2018-04-02 12:31:59 INFO  rootLogger:230 - Scenario: Verify Advertiser main screen and options complete.

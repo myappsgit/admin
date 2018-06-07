@@ -1,0 +1,53 @@
+{
+    "BUTTONS": {
+        "Login_Submit": {
+            "path": "//button[@class='consumerModuleButtons submitButton' and text()='Submit']"
+        },
+        "SignUpSubmit": {
+            "id": "register_signup_button"
+        },
+        "Logout": {
+            "path": "//p[@text()='Logout']"
+        }
+    },
+    "TEXT_FIELDS": {
+        "Username": {
+            "id": "username"
+        },
+        "Password": {
+            "id": "password"
+        }
+    },
+    "CHECKBOXES": {
+        "SignUpAccept": {
+            "id": "terms_signup_input"
+        }
+    },
+    "RADIOS": {
+        "SignUpGenderM": {
+            "id": "genderm_signup_radio"
+        },
+        "SignUpGenderF": {
+            "id": "genderf_signup_radio"
+        }
+    },
+    "DROPDOWNS": {
+        "SignUpState": {
+            "id": "state_signup_select"
+        },
+        "DOBDay": {
+            "path": "select[@name='date_[day]']"
+        },
+        "DOBMonth": {
+            "path": "select[@name='date_[month]']"
+        },
+        "DOBYear": {
+            "path": "select[@name='date_[year]']"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "CloseSignupLogin": {
+            "id": "close_signuploginbox_i"
+        }
+    }
+}

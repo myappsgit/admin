@@ -1,0 +1,106 @@
+{
+    "BUTTONS": {
+        "Login": {
+            "path": "//a[@class='topMenuRound' and text()='Login']"
+        },
+        "Partner": {
+            "path": "//a[@class='topMenuRound' and text()='Partner']"
+        },
+        "SignUpConSubmit": {
+            "path": "//button[@class='submitButton' and text()='Submit']"
+        },
+        "SPSignUpSubmit": {
+            "path": "//button[@class='submitButton buttons' and text()='SUBMIT']"
+        },
+        "ConLoginSubmit": {
+            "path": "//button[@class='consumerModuleButtons submitButton' and text()='Sign in']"
+        },
+        "Close": {
+            "path": "//img[@class='closeIcon']"
+        },
+        "PartnerWithUs": {
+            "path": "//a[@class='topMenuRound' and text()='Partner With Us']"
+        },
+        "SPLoginSubmit": {
+            "id": "button_login_Submit"
+        },
+        "ResetMyPassword": {
+            "id": "button_resetPassword"
+        }
+    },
+    "TEXT_FIELDS": {
+
+        "SignUpConUserName": {
+            "id": "name"
+        },
+        "SignUpConPassword": {
+            "id": "password"
+        },
+        "SignUpConReEnterPassword": {
+            "id": "cpassword"
+        },
+        "SignUpConEmail": {
+            "id": "email"
+        },
+        "SignUpConPhone": {
+            "id": "mobile"
+        },
+        "ConEnterOTP": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPOwnerName": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPPassword": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPConfPassword": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPPhone": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPEmail": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPWebsite": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPAddress": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPPincode": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPCity": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "SPCountry": {
+            "path": "//input[@formcontrolname='otpValue']"
+        },
+        "RegisteredEmail": {
+            "id": "input_registredEmailId"
+        }
+    },
+    "CHECKBOXES": {
+        "SignUpTerms": {
+            "path": "//input[@formcontrolname='terms']"
+        }
+    },
+    "DROPDOWNS": {
+        "SPState": {
+            "path": "//input[@formcontrolname='terms']"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "FacebookLogin": {
+            "path": "//div[@class='facebookSignUpBtn']"
+        },
+        "ForgotPassword": {
+            "path": "//span[text()='Forgot Password?']"
+        },
+        "Login": {
+            "path": "//a[@class='topMenuRound' and text()='Login']"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+2018-06-07 10:56:02 INFO  rootLogger:232 - Class: Hooks; Method: setUp
+2018-06-07 10:56:02 INFO  rootLogger:232 - Scenario: Verify Adding Offers starting.
+2018-06-07 10:56:02 INFO  rootLogger:232 - Scenario Tag Name: @Sanity
+2018-06-07 10:56:03 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Start
+2018-06-07 10:56:03 INFO  rootLogger:232 - Class: Hooks; Method: openBrowser
+2018-06-07 10:56:03 INFO  rootLogger:232 - userName: admin@huddil.com
+2018-06-07 10:56:03 INFO  rootLogger:232 - Class: SetUpFile; Method: constructor
+2018-06-07 10:56:03 INFO  rootLogger:232 - Initializing JSON files
+2018-06-07 10:56:03 INFO  rootLogger:232 - Class: SetUpFile; Method: setUpBrowser
+2018-06-07 10:56:06 INFO  rootLogger:232 - ChromeDriver initialized
+2018-06-07 10:56:08 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-07 10:56:08 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:08 INFO  rootLogger:232 - Class: SetUpFile; Method: openURL
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SetUpFile; Method: logInApplication
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:19 INFO  rootLogger:232 - Return: username
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:19 INFO  rootLogger:232 - Return: password
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:19 INFO  rootLogger:232 - Return: null
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:19 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:19 INFO  rootLogger:232 - UserName: admin@huddil.com entered
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:19 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:19 INFO  rootLogger:232 - Password: password entered
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:19 INFO  rootLogger:232 - Return: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-07 10:56:19 INFO  rootLogger:232 - propField: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-07 10:56:19 INFO  rootLogger:232 - switchType: xpath
+2018-06-07 10:56:19 INFO  rootLogger:232 - switchValue: //button[@class='consumerModuleButtons submitButton' and text()='Sign in']
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:19 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:19 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:22 INFO  rootLogger:232 - Login button clicked
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: switchToNewWindow
+2018-06-07 10:56:22 INFO  rootLogger:232 - parentWindow: CDwindow-4042CF551C8DD1359E281F71A6A3B6D3
+2018-06-07 10:56:22 INFO  rootLogger:232 - windowHandle: CDwindow-4042CF551C8DD1359E281F71A6A3B6D3
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: Hooks; Method: setDriver
+2018-06-07 10:56:22 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: LoginStepdefs; Method: applicationLogin : Complete
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Start
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-07 10:56:22 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: Page; Method: findPage
+2018-06-07 10:56:22 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-07 10:56:22 INFO  rootLogger:232 - PaneName: Admin
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:22 INFO  rootLogger:232 - Exception: null
+2018-06-07 10:56:22 INFO  rootLogger:232 - Pane xpath: null
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-07 10:56:22 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:22 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:22 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:23 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: checkPageLoad : Complete
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: clickMiscElement : Start
+2018-06-07 10:56:23 INFO  rootLogger:232 - Pagename: Admin
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-07 10:56:23 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: Page; Method: clickMiscElement
+2018-06-07 10:56:23 INFO  rootLogger:232 - Current tab name: Admin
+2018-06-07 10:56:23 INFO  rootLogger:232 - ImageName: Offers
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:23 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']]
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:23 INFO  rootLogger:232 - Return: //div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']]
+2018-06-07 10:56:23 INFO  rootLogger:232 - xpath present
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:23 INFO  rootLogger:232 - frame: //div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']];xpath
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-07 10:56:23 INFO  rootLogger:232 - propField: //div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']];xpath
+2018-06-07 10:56:23 INFO  rootLogger:232 - switchType: xpath
+2018-06-07 10:56:23 INFO  rootLogger:232 - switchValue: //div[contains (@class,  'sideMenuItem') and child::p[text()='Offers']]
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:23 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:23 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:24 INFO  rootLogger:232 - Element: 'Offers' exist and clicked. Returning true.
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: GlobalStepdefs; Method: enterInTheField : Start
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-07 10:56:24 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: Page; Method: setTextBox
+2018-06-07 10:56:24 INFO  rootLogger:232 - Current page name: Admin
+2018-06-07 10:56:24 INFO  rootLogger:232 - Text box field name: FromOfferDate
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: UtilFunctions; Method: getJSONFileObjBasedOnPageName
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementStringAndType
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:24 INFO  rootLogger:232 - Return: input[., 'From Date')]
+2018-06-07 10:56:24 INFO  rootLogger:232 - Class: UtilFunctions; Method: getElementFromJSONFile
+2018-06-07 10:56:24 INFO  rootLogger:232 - Return: input[., 'From Date')]
+2018-06-07 10:56:24 INFO  rootLogger:232 - xpath present
+2018-06-07 10:56:24 INFO  rootLogger:232 - Text box textPath: input[., 'From Date')]
+2018-06-07 10:56:24 INFO  rootLogger:232 - Text box textMethod: xpath
+2018-06-07 10:56:25 INFO  rootLogger:232 - Class: Hooks; Method: getDriver
+2018-06-07 10:56:25 INFO  rootLogger:232 - get driver object
+2018-06-07 10:56:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: setByValues
+2018-06-07 10:56:25 INFO  rootLogger:232 - propField: input[., 'From Date')];xpath
+2018-06-07 10:56:25 INFO  rootLogger:232 - switchType: xpath
+2018-06-07 10:56:25 INFO  rootLogger:232 - switchValue: input[., 'From Date')]
+2018-06-07 10:56:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: findElement
+2018-06-07 10:56:25 INFO  rootLogger:232 - Class: SeleniumFunctions; Method: explicitWait
+2018-06-07 10:56:25 INFO  rootLogger:232 - frame: 
+2018-06-07 10:56:26 INFO  rootLogger:232 - Element not found after timeout of 1 seconds. Exception: Expected condition failed: waiting for visibility of element located by By.xpath: input[., 'From Date')] (tried for 1 second(s) with 500 MILLISECONDS interval)
+2018-06-07 10:56:26 INFO  rootLogger:232 - Element not found. Returning null. Exception: invalid selector: Unable to locate an element with the xpath expression input[., 'From Date')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'input[., 'From Date')]' is not a valid XPath expression.
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.2.136', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir480_869}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ef091c95605c183e2f4bcf6876eb9b88
+*** Element info: {Using=xpath, value=input[., 'From Date')]}
+2018-06-07 10:56:26 INFO  rootLogger:232 - Text box 'FromOfferDate' object is null. Returning false.
+2018-06-07 10:56:26 INFO  rootLogger:232 - Class: Hooks; Method: closeBrowserAndTakeScreenShot
+2018-06-07 10:56:26 INFO  rootLogger:232 - Scenario: Verify Adding Offers - Failed
+2018-06-07 10:56:26 INFO  rootLogger:232 - Class: Hooks; Method: takeScreenShot
+2018-06-07 10:56:27 INFO  rootLogger:232 - Browser closed
+2018-06-07 10:56:27 INFO  rootLogger:232 - Tried to kill process with PID: 6780
+2018-06-07 10:56:27 INFO  rootLogger:232 - Scenario: Verify Adding Offers complete.
